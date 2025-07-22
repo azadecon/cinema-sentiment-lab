@@ -2,6 +2,12 @@
 #Purpose: to obtain and create random sample of 100 movies
 #########################################################################################################
 
+
+# Config parameters
+SEED <- 1234
+SAMPLE_SIZE <- 100
+MIN_YEAR <- 2010
+
 #########################################################################################################
 #Section I: obtain movies dataset
 #########################################################################################################
@@ -65,7 +71,7 @@ list2env(bolly_list, envir = .GlobalEnv)
 # DATA MERGING #
 ################
 
-set.seed(1234)
+set.seed(SEED)
 
 # since we expect missing `year_of_release`, missing Wikipedia links, we sample only on those with available values.
 # we first join bolly_meta which has `year_of_release` with bolly_main which has `wiki_link`
@@ -80,7 +86,7 @@ bolly_year_link <- bolly_meta %>%
 
 # Step 1b: Filter to valid year and non-missing wiki_link
 bolly_year_link_valid <- bolly_year_link %>%
-  filter(!is.na(year_of_release), year_of_release > 2010,
+  filter(!is.na(year_of_release), year_of_release > MIN_YEAR,
          !is.na(wiki_link), wiki_link != "")
 
 # Step 2: Merge ratings and text data
@@ -91,7 +97,7 @@ bolly_all_valid <- bolly_year_link_valid %>%
 
 # Step 3: Randomly sample 100
 bolly_sample_100 <- bolly_all_valid %>%
-  slice_sample(n = 100)
+  slice_sample(n = SAMPLE_SIZE)
 
 # clean column names
 bolly_sample_100 <- bolly_sample_100 %>% 
@@ -104,32 +110,6 @@ stopifnot(nrow(bolly_all_valid) == n_distinct(bolly_all_valid$imdb_id))
 dir.create("data/clean", recursive = TRUE, showWarnings = FALSE)
 write_csv(bolly_sample_100, "./data/clean/bolly_sample_100.csv")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Log the sampling event
+log_msg <- paste0(Sys.time(), " | Sampled ", SAMPLE_SIZE, " movies after ", MIN_YEAR, " with seed ", SEED, "\n")
+write(log_msg, file = "data/clean/sampling.log", append = TRUE)
