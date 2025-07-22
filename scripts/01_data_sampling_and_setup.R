@@ -93,6 +93,11 @@ bolly_all_valid <- bolly_year_link_valid %>%
 bolly_sample_100 <- bolly_all_valid %>%
   slice_sample(n = 100)
 
+# clean column names
+bolly_sample_100 <- bolly_sample_100 %>% 
+  select(-title.y) %>% 
+  rename("title" = "title.x")
+
 # ensure that the merge went correctly
 stopifnot(nrow(bolly_all_valid) == n_distinct(bolly_all_valid$imdb_id))
 
