@@ -11,9 +11,10 @@ library(jsonlite)
 library(httr)
 library(tools)
 
-sub_dl_api <- "IcZ5bkGdg67ChNaKwpDn2tFymXS1QISY"
+## setting the globals (as in the .Renviron file)
+sub_dl_api <- Sys.getenv("SUB_DL_API")
 
-# initialise an empty dataframe to record the request status
+# initialize an empty dataframe to record the request status
 subtitle_log <- data.frame(
   imdb_id = character(),
   status = logical(),
@@ -27,7 +28,7 @@ if (!dir.exists(download_dir)) dir.create(download_dir, recursive = TRUE)
 common_srt_dir = "./data/raw/subtitles/all_srts/"
 if (!dir.exists(common_srt_dir)) dir.create(common_srt_dir, recursive = TRUE)
 
-
+# define the scraping function
 get_subtitle <- function(imdb_id,
                          api_key = sub_dl_api,
                          language = "EN") {
