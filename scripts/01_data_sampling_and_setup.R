@@ -32,14 +32,14 @@ reticulate::py_install("kaggle", pip = TRUE)
 kaggle <- import("kaggle")  # optional: not needed for system2 method
 
 # Create output directory for data
-dir.create("data/raw", recursive = TRUE, showWarnings = FALSE)
+dir.create("data/raw/movie_data", recursive = TRUE, showWarnings = FALSE)
 
 # Download and unzip dataset using system2 (calls Kaggle CLI)
 system2("kaggle", args = c(
   "datasets", "download",
   "-d", "pncnmnp/the-indian-movie-database",
   "--unzip",
-  "-p", "data/raw"
+  "-p", "data/raw/movie_data"
 ))
 
 #########################################################################################################
@@ -51,7 +51,7 @@ system2("kaggle", args = c(
 ################
 
 # Directory containing the files
-post_2010_data_dir <- "./data/raw/2010-2019"
+post_2010_data_dir <- "./data/raw/movie_data/2010-2019"
 
 # Map of informative object names to filenames
 file_map <- c(
