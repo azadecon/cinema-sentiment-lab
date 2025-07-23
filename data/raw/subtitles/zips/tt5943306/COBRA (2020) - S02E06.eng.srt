@@ -1,0 +1,3121 @@
+﻿1
+00:00:10,844 --> 00:00:13,924
+Dostoevsky was held captive
+
+2
+00:00:14,044 --> 00:00:16,725
+in a rat-infested fortress,
+
+3
+00:00:16,765 --> 00:00:19,605
+subjected to a mock execution,
+
+4
+00:00:19,645 --> 00:00:22,486
+shipped off to a brutal
+prison camp in Siberia
+
+5
+00:00:22,606 --> 00:00:25,086
+with a sadistic maniac
+in charge,
+
+6
+00:00:25,126 --> 00:00:30,327
+who lashed men for sleeping
+on their wrong side in bed.
+
+7
+00:00:31,688 --> 00:00:33,688
+There's a correct side?
+
+8
+00:00:35,768 --> 00:00:38,809
+Apparently,
+Jesus slept on his left.
+
+9
+00:00:42,090 --> 00:00:43,450
+Is it helping?
+
+10
+00:00:44,210 --> 00:00:46,531
+Not being Dostoevsky?
+
+11
+00:00:49,811 --> 00:00:50,852
+Yes.
+
+12
+00:00:51,412 --> 00:00:52,572
+Cool.
+
+13
+00:00:56,013 --> 00:00:57,653
+Are you going to bed now?
+
+14
+00:00:57,733 --> 00:00:58,829
+- It's only...
+- It doesn't make
+
+15
+00:00:58,853 --> 00:01:00,854
+much difference,
+to be honest.
+
+16
+00:01:01,734 --> 00:01:03,374
+Okay.
+
+17
+00:01:03,454 --> 00:01:05,494
+- See you later.
+- Mm.
+
+18
+00:01:24,098 --> 00:01:26,139
+As government sources
+dismiss press reports
+
+19
+00:01:26,219 --> 00:01:28,579
+of Robert Sutherland
+being burnt out,
+
+20
+00:01:28,659 --> 00:01:30,860
+the Prime Minister
+abandoned a press conference
+
+21
+00:01:30,940 --> 00:01:32,780
+at number 10,
+Downing Street.
+
+22
+00:01:32,860 --> 00:01:35,780
+They say he's been suffering
+from dizziness,
+
+23
+00:01:35,861 --> 00:01:38,021
+after a minor illness.
+
+24
+00:01:47,223 --> 00:01:49,463
+We believe that
+the Cerberus code,
+
+25
+00:01:49,503 --> 00:01:53,024
+is part of a massive,
+critical, infrastructure hit,
+
+26
+00:01:53,144 --> 00:01:56,465
+of which the water supply
+in Kent was just a starter.
+
+27
+00:01:56,505 --> 00:01:59,105
+It might come all at once,
+or in waves.
+
+28
+00:01:59,145 --> 00:02:00,785
+But we do know it's massive.
+
+29
+00:02:02,146 --> 00:02:03,626
+So, we don't know
+
+30
+00:02:03,746 --> 00:02:07,867
+if Cerberus is the Chinese,
+or the Russians.
+
+31
+00:02:07,987 --> 00:02:10,908
+Well, like our own tax
+on the Iranians,
+
+32
+00:02:11,028 --> 00:02:13,588
+it could easily
+be a joint enterprise.
+
+33
+00:02:13,628 --> 00:02:16,909
+There are no identifiable
+command callbacks
+
+34
+00:02:17,029 --> 00:02:18,309
+that we can find in the code.
+
+35
+00:02:18,349 --> 00:02:20,629
+Now, normally,
+a virus would need
+
+36
+00:02:20,749 --> 00:02:22,590
+to refer back to a controller,
+
+37
+00:02:22,710 --> 00:02:26,191
+who might tell it to start,
+stop, destroy yourself.
+
+38
+00:02:26,311 --> 00:02:27,591
+But here, there's nothing.
+
+39
+00:02:27,711 --> 00:02:30,031
+There may be no way
+of stopping it now.
+
+40
+00:02:31,312 --> 00:02:33,072
+- Fraser.
+- Sir. We've ranked targets
+
+41
+00:02:33,152 --> 00:02:35,873
+of the general critical
+infrastructure attack
+
+42
+00:02:35,913 --> 00:02:38,993
+into a "Top 5,"
+but it's not exhaustive.
+
+43
+00:02:40,353 --> 00:02:45,034
+One, a few,
+or all of these.
+
+44
+00:02:45,074 --> 00:02:47,155
+We can't sit around
+and do nothing.
+
+45
+00:02:47,275 --> 00:02:48,595
+They could bring down planes,
+
+46
+00:02:48,635 --> 00:02:50,275
+black out the entire country,
+
+47
+00:02:50,315 --> 00:02:51,916
+cripple the water supply.
+
+48
+00:02:52,036 --> 00:02:54,156
+They've already
+had a good go at that.
+
+49
+00:02:56,037 --> 00:03:00,037
+How do we end this
+in a face-saving way?
+
+50
+00:03:00,157 --> 00:03:02,318
+Increase our retaliations.
+
+51
+00:03:02,358 --> 00:03:04,158
+See, that is not going to work...
+
+52
+00:03:04,198 --> 00:03:07,719
+Division 45 was created
+precisely for that reason, wasn't it?
+
+53
+00:03:07,759 --> 00:03:10,039
+We've boasted
+about our offensive capacities.
+
+54
+00:03:10,159 --> 00:03:12,640
+The Americans
+have made it very clear
+
+55
+00:03:12,760 --> 00:03:14,160
+that they are
+not going to help us.
+
+56
+00:03:14,200 --> 00:03:15,760
+So, we do it
+without them.
+
+57
+00:03:15,840 --> 00:03:17,577
+Well, I have to admit,
+when I was Home Secretary,
+
+58
+00:03:17,601 --> 00:03:19,481
+I'd always have a bit
+of a snooze
+
+59
+00:03:19,601 --> 00:03:22,922
+when people banged on about
+the danger of cyber-attacks.
+
+60
+00:03:23,042 --> 00:03:26,763
+Sorry,
+is it a time for joking?
+
+61
+00:03:32,764 --> 00:03:35,604
+Um, in all fairness...
+
+62
+00:03:35,724 --> 00:03:39,085
+I do not need a translation
+service, thank you.
+
+63
+00:03:40,285 --> 00:03:42,886
+I've already sacked one traitor.
+
+64
+00:03:42,926 --> 00:03:45,846
+- Anyone else considering acts of disloyalty...
+- Piffle!
+
+65
+00:03:47,047 --> 00:03:49,327
+Anna Marshall wasn't disloyal.
+
+66
+00:03:50,327 --> 00:03:52,008
+That's a categoric error,
+Robert,
+
+67
+00:03:52,048 --> 00:03:54,568
+which is frankly,
+rather disappointing,
+
+68
+00:03:54,608 --> 00:03:56,889
+from a man who never tires
+of reminding us
+
+69
+00:03:57,009 --> 00:04:00,009
+that he studied
+philosophy at Balliol.
+
+70
+00:04:00,049 --> 00:04:02,650
+And don't give me
+the Scottish stare either,
+
+71
+00:04:02,770 --> 00:04:04,330
+you're from Stirling,
+
+72
+00:04:04,450 --> 00:04:06,331
+not Drumchapel!
+
+73
+00:04:09,091 --> 00:04:10,491
+I think it's a matter of record,
+
+74
+00:04:10,571 --> 00:04:13,412
+I never saw eye-to-eye
+with Anna Marshall.
+
+75
+00:04:13,492 --> 00:04:16,493
+She's the kind of
+ghastly liberal snob
+
+76
+00:04:16,533 --> 00:04:19,413
+who thinks her cleaning lady
+is a loyal friend,
+
+77
+00:04:19,533 --> 00:04:22,654
+rather than
+a reluctant wage slave.
+
+78
+00:04:23,974 --> 00:04:26,335
+Misplaced loyalty, yes.
+
+79
+00:04:26,415 --> 00:04:31,096
+Unbearably sanctimonious,
+Christ, yes!
+
+80
+00:04:31,176 --> 00:04:33,656
+But she was never disloyal!
+
+81
+00:04:33,736 --> 00:04:35,416
+I'm afraid,
+Prime Minister,
+
+82
+00:04:35,536 --> 00:04:38,737
+I'd have to agree with the
+Foreign Secretary on that one.
+
+83
+00:04:40,417 --> 00:04:44,098
+The loyalty bit, anyway,
+not the cleaning ladies.
+
+84
+00:04:45,218 --> 00:04:47,099
+For what it's worth.
+
+85
+00:04:47,219 --> 00:04:49,659
+Well, let me enlighten you
+on that, Fraser.
+
+86
+00:04:50,499 --> 00:04:52,540
+It's worth nothing!
+
+87
+00:04:54,780 --> 00:04:59,341
+It looks as if all that's left
+is to banish Kent to France.
+
+88
+00:05:02,982 --> 00:05:04,542
+Get a grip, man!
+
+89
+00:05:23,986 --> 00:05:26,107
+He's losing it.
+
+90
+00:05:26,187 --> 00:05:27,907
+- You went in too hard.
+- Bugger that!
+
+91
+00:05:27,987 --> 00:05:30,547
+He's the bloody
+Prime Minister!
+
+92
+00:05:30,627 --> 00:05:34,628
+If he can't cut it, he should
+make way for somebody who can.
+
+93
+00:05:36,989 --> 00:05:39,429
+Well,
+as Home Secretary,
+
+94
+00:05:39,509 --> 00:05:42,430
+I shall continue
+to chair the meeting.
+
+95
+00:05:42,510 --> 00:05:45,190
+Protocol suggests
+you are correct.
+
+96
+00:05:50,551 --> 00:05:52,992
+Right, our top priority...
+
+97
+00:06:10,115 --> 00:06:12,236
+Come to tell me
+you agree with them all?
+
+98
+00:06:12,316 --> 00:06:13,516
+No.
+
+99
+00:06:14,436 --> 00:06:15,636
+Good.
+
+100
+00:06:17,437 --> 00:06:19,557
+I need time to find
+a replacement for Fraser.
+
+101
+00:06:19,637 --> 00:06:22,438
+You're not going to fire Fraser.
+
+102
+00:06:29,879 --> 00:06:31,680
+High Chaparral?
+
+103
+00:06:35,240 --> 00:06:36,521
+You remember it?
+
+104
+00:06:36,561 --> 00:06:39,441
+Linda Cristal
+played Victoria Cannon.
+
+105
+00:06:39,521 --> 00:06:41,122
+You're my new Chief of Staff.
+
+106
+00:06:41,202 --> 00:06:42,882
+No, thanks.
+
+107
+00:06:45,442 --> 00:06:47,883
+Maybe I should
+re-appoint Peter Mott,
+
+108
+00:06:47,923 --> 00:06:51,684
+just to play pointless games
+of one-upmanship with Archie.
+
+109
+00:06:53,004 --> 00:06:55,764
+Tale told by an idiot,
+all right.
+
+110
+00:06:55,804 --> 00:06:58,685
+You're angry because Archie
+kicked your ass for a change,
+
+111
+00:06:58,765 --> 00:07:01,886
+and I understand
+how that must hurt.
+
+112
+00:07:02,006 --> 00:07:06,527
+But I'm not here for
+chit-chats, or quotations,
+
+113
+00:07:06,567 --> 00:07:09,567
+my job is strictly
+national security.
+
+114
+00:07:09,647 --> 00:07:11,768
+Would you like me to
+update you on our strategy?
+
+115
+00:07:11,888 --> 00:07:13,568
+Oh, we have a strategy, okay.
+
+116
+00:07:13,648 --> 00:07:15,929
+You have instructed me
+to be proactive.
+
+117
+00:07:19,689 --> 00:07:21,210
+Yeah, sorry, yeah.
+
+118
+00:07:23,090 --> 00:07:25,330
+Yeah.
+
+119
+00:07:25,370 --> 00:07:28,771
+Just not used to people carrying
+out my instructions anymore.
+
+120
+00:07:32,132 --> 00:07:35,452
+Heracles killed Cerberus.
+
+121
+00:07:36,893 --> 00:07:38,893
+Now, we can run around
+trying to protect everything
+
+122
+00:07:39,013 --> 00:07:42,134
+from power stations
+to air traffic control centers.
+
+123
+00:07:42,214 --> 00:07:45,534
+But in the end, it's like
+chasing 100 cats at once.
+
+124
+00:07:46,655 --> 00:07:49,215
+If you do want to up the ante,
+
+125
+00:07:49,255 --> 00:07:51,936
+don't bother with
+any more symbolic targets.
+
+126
+00:07:52,896 --> 00:07:55,336
+You have to play very dirty.
+
+127
+00:07:55,376 --> 00:07:56,377
+With what?
+
+128
+00:07:56,457 --> 00:07:58,137
+With Heracles.
+
+129
+00:07:59,897 --> 00:08:02,018
+You know...
+
+130
+00:08:02,138 --> 00:08:04,578
+characters from Greek mythology
+are all very well and good
+
+131
+00:08:04,658 --> 00:08:07,379
+when it comes to scary
+operational names, but...
+
+132
+00:08:07,459 --> 00:08:09,579
+It's a bit more than that.
+
+133
+00:08:09,699 --> 00:08:14,900
+It's malware designed to confuse and disable
+missile defense systems around the world.
+
+134
+00:08:15,020 --> 00:08:17,141
+Cyber war works like
+any other war.
+
+135
+00:08:17,221 --> 00:08:20,221
+It escalates very fast.
+
+136
+00:08:20,261 --> 00:08:23,022
+If the attack vectors
+aren't controlled properly,
+
+137
+00:08:23,142 --> 00:08:26,343
+or if it extends beyond
+the prime target,
+
+138
+00:08:26,383 --> 00:08:30,023
+this war could escalate in
+ways we can no longer contain.
+
+139
+00:08:41,866 --> 00:08:46,307
+Senior cabinet sources have muttered about
+instability within the Sutherland cabinet
+
+140
+00:08:46,387 --> 00:08:50,267
+after the rumored sacking of his
+closest advisor, Anna Marshall.
+
+141
+00:08:50,307 --> 00:08:53,028
+This has still not been
+confirmed by Downing Street.
+
+142
+00:08:53,068 --> 00:08:56,909
+Meanwhile, here in Kent, the
+election remains on a knife edge
+
+143
+00:08:57,029 --> 00:08:59,789
+as Francine Bridge
+accuses her Tory opponent
+
+144
+00:08:59,869 --> 00:09:02,390
+of trying to stoke
+a fake culture war,
+
+145
+00:09:02,430 --> 00:09:07,191
+and Rodger Hawkins continues to flirt
+with the Firestorm conspiracy website.
+
+146
+00:09:07,271 --> 00:09:08,911
+Back to you in the studio.
+
+147
+00:09:09,031 --> 00:09:11,672
+It's all gotten very ugly.
+Look.
+
+148
+00:09:17,033 --> 00:09:18,433
+Hawkins put this in?
+
+149
+00:09:18,553 --> 00:09:19,769
+I don't know
+if he printed them,
+
+150
+00:09:19,793 --> 00:09:21,234
+but his people
+are distributing them.
+
+151
+00:09:21,274 --> 00:09:23,154
+Right, well, I'll speak
+to his people, then,
+
+152
+00:09:23,194 --> 00:09:24,770
+'cause I can't believe they'll
+sanction this kind of stuff.
+
+153
+00:09:24,794 --> 00:09:27,675
+I can! It's more siren now
+than dog-whistle.
+
+154
+00:09:36,437 --> 00:09:38,517
+What's happening
+with Anna Marshall?
+
+155
+00:09:39,277 --> 00:09:40,677
+She resigned.
+
+156
+00:09:41,558 --> 00:09:43,518
+I heard she'd been fired.
+
+157
+00:09:43,558 --> 00:09:45,318
+- She resigned.
+- Right.
+
+158
+00:09:47,559 --> 00:09:49,879
+The police have been in
+touch with me about security.
+
+159
+00:09:49,919 --> 00:09:52,320
+Right.
+How many is it this time?
+
+160
+00:09:52,400 --> 00:09:54,680
+Rape, or death, or both.
+
+161
+00:09:55,400 --> 00:09:56,881
+God!
+
+162
+00:09:57,761 --> 00:09:59,041
+217.
+
+163
+00:09:59,081 --> 00:10:01,682
+Four credible.
+One very credible.
+
+164
+00:10:02,682 --> 00:10:04,322
+A group calling themselves
+J 23,
+
+165
+00:10:04,402 --> 00:10:07,683
+formed out of the remnants
+of national spirit, have sworn
+
+166
+00:10:07,803 --> 00:10:10,083
+to prevent Kent
+from having a black MP.
+
+167
+00:10:10,163 --> 00:10:12,044
+Of course,
+they didn't actually say black.
+
+168
+00:10:14,924 --> 00:10:16,765
+I can't stay at home
+while I'm in London.
+
+169
+00:10:16,805 --> 00:10:18,885
+No, sure, sure,
+we'll get you a flat.
+
+170
+00:10:18,925 --> 00:10:20,445
+I'm going to stay with Anna.
+
+171
+00:10:20,565 --> 00:10:22,766
+It's two hours' drive
+from the constituency.
+
+172
+00:10:22,806 --> 00:10:24,806
+Yeah, but what about the press?
+
+173
+00:10:24,926 --> 00:10:28,567
+I mean, I think we've got bigger
+things to worry about, don't you?
+
+174
+00:10:36,089 --> 00:10:41,570
+Your destination
+is 1.5 miles away.
+
+175
+00:10:53,572 --> 00:10:56,653
+At the next junction,
+turn right.
+
+176
+00:11:00,653 --> 00:11:01,814
+Turn right.
+
+177
+00:11:31,220 --> 00:11:33,660
+You all right?
+
+178
+00:11:35,180 --> 00:11:37,061
+It's a one-way street, love.
+
+179
+00:11:37,181 --> 00:11:39,421
+You can't be turning the wrong
+way down a one-way street.
+
+180
+00:11:43,062 --> 00:11:44,582
+Yeah, I know.
+
+181
+00:11:44,662 --> 00:11:46,703
+Well, why did you, then?
+
+182
+00:11:46,783 --> 00:11:49,583
+My SatNav.
+It told me...
+
+183
+00:11:49,703 --> 00:11:51,224
+Hang on,
+I know you!
+
+184
+00:11:53,104 --> 00:11:56,945
+Now hold on,
+could I get a selfie?
+
+185
+00:11:57,025 --> 00:11:58,585
+Oh no, no!
+
+186
+00:12:04,306 --> 00:12:06,347
+- Hiya.
+- You all right, madam?
+
+187
+00:12:06,427 --> 00:12:08,187
+No, I've had an accident.
+
+188
+00:12:11,948 --> 00:12:14,948
+Highways England has
+issued an urgent traffic alert,
+
+189
+00:12:15,068 --> 00:12:17,229
+warning drivers
+that accidents are occurring,
+
+190
+00:12:17,309 --> 00:12:19,949
+due to faulty motorway
+ENS SatNav data.
+
+191
+00:12:20,069 --> 00:12:25,070
+Motorists are urged not to begin
+any journey by road, until further notice.
+
+192
+00:12:25,110 --> 00:12:28,671
+- So it's started.
+- It's bloody mayhem out there.
+
+193
+00:12:33,792 --> 00:12:35,112
+What's happening?
+
+194
+00:12:35,192 --> 00:12:36,809
+They've attacked
+the traffic control system,
+
+195
+00:12:36,833 --> 00:12:38,353
+including SatNav apps.
+
+196
+00:12:38,433 --> 00:12:39,809
+People are getting
+a ton of misinformation.
+
+197
+00:12:39,833 --> 00:12:41,834
+There are accidents
+across the major cities.
+
+198
+00:12:41,954 --> 00:12:43,714
+Also, the motorways
+are gridlocked.
+
+199
+00:12:43,834 --> 00:12:46,715
+They've put up fake speed
+warning signs of 30 miles per hour.
+
+200
+00:12:46,835 --> 00:12:50,115
+That's about normal
+for the M25, isn't it?
+
+201
+00:12:50,195 --> 00:12:52,916
+- Funny if you're getting cut out of your car.
+- What?
+
+202
+00:12:53,916 --> 00:12:55,676
+- Who are you?
+- I'm Audrey Hem...
+
+203
+00:12:55,716 --> 00:12:57,917
+No, I don't actually care
+who you are.
+
+204
+00:12:57,957 --> 00:12:59,957
+She works with me,
+leave her alone.
+
+205
+00:13:02,078 --> 00:13:03,718
+Carry on then.
+
+206
+00:13:05,598 --> 00:13:09,839
+Traffic lights, control centers,
+SatNavs, the works.
+
+207
+00:13:09,959 --> 00:13:12,440
+- We need to prioritize the motorways.
+- Agreed.
+
+208
+00:13:12,560 --> 00:13:14,200
+But who knows
+what they'll target next?
+
+209
+00:13:14,240 --> 00:13:16,441
+In some places, the
+tailbacks are already so bad,
+
+210
+00:13:16,481 --> 00:13:20,201
+that we are going to have to
+organize emergency relief deliveries.
+
+211
+00:13:20,321 --> 00:13:23,482
+Also, this.
+
+212
+00:13:23,602 --> 00:13:25,962
+Firestorm symbols
+are everywhere.
+
+213
+00:13:31,084 --> 00:13:34,684
+- Where's the PM?
+- I don't know. He was informed, so...
+
+214
+00:13:38,125 --> 00:13:40,365
+- We need to act!
+- I know!
+
+215
+00:13:40,445 --> 00:13:42,446
+So...
+
+216
+00:13:42,566 --> 00:13:44,486
+are you going to
+get the ball rolling?
+
+217
+00:13:46,087 --> 00:13:47,567
+I am.
+
+218
+00:13:52,848 --> 00:13:54,688
+I thought he was
+going to shoot me, Anna.
+
+219
+00:13:55,688 --> 00:13:56,969
+I'm surprised.
+
+220
+00:13:57,729 --> 00:13:59,729
+He just took a photo.
+
+221
+00:14:01,330 --> 00:14:03,970
+Till that moment, all
+the threats had just felt,
+
+222
+00:14:04,090 --> 00:14:05,450
+a bit unreal.
+
+223
+00:14:10,051 --> 00:14:13,692
+Apparently, all the
+navigation apps are buggered.
+
+224
+00:14:15,252 --> 00:14:16,973
+They're driving into rivers,
+
+225
+00:14:17,093 --> 00:14:19,093
+and the wrong way down
+motorway slip roads.
+
+226
+00:14:19,213 --> 00:14:20,973
+I almost did that once,
+actually.
+
+227
+00:14:21,054 --> 00:14:22,574
+One of those mad
+loopy junctions
+
+228
+00:14:22,614 --> 00:14:24,694
+with an Aldi and with
+a Frankie and Benny's.
+
+229
+00:14:29,575 --> 00:14:31,856
+Is that one of ours?
+
+230
+00:14:34,456 --> 00:14:37,217
+- I've never seen that.
+- Has he?
+
+231
+00:14:37,257 --> 00:14:39,977
+I don't think so.
+Even Robert...
+
+232
+00:14:45,618 --> 00:14:48,819
+- Obviously, it has to be you.
+- Obviously!
+
+233
+00:14:48,859 --> 00:14:50,739
+This is in
+the national interest.
+
+234
+00:14:50,819 --> 00:14:52,820
+We can't have
+an absentee Prime Minister.
+
+235
+00:14:52,860 --> 00:14:55,140
+100 percent agreed, Joseph.
+
+236
+00:15:01,262 --> 00:15:03,702
+Tell me something
+I already know.
+
+237
+00:15:03,742 --> 00:15:05,222
+He's using you
+as a stalking horse,
+
+238
+00:15:05,262 --> 00:15:07,103
+and then he'll step over
+your twitching corpse.
+
+239
+00:15:07,223 --> 00:15:08,823
+The long and
+the short of it, Motty.
+
+240
+00:15:08,863 --> 00:15:11,224
+I wish you'd stop
+calling me Motty.
+
+241
+00:15:13,464 --> 00:15:15,984
+Joseph Obasi is
+not an enigma at all.
+
+242
+00:15:16,105 --> 00:15:18,625
+He's simply a man
+who has one thing,
+
+243
+00:15:18,745 --> 00:15:20,625
+and one thing only,
+on his mind.
+
+244
+00:15:20,745 --> 00:15:23,226
+- Nothing wrong with that.
+- Nothing wrong with it at all.
+
+245
+00:15:23,266 --> 00:15:24,866
+I'm all in favor of ambition.
+
+246
+00:15:24,986 --> 00:15:27,987
+- He's allowed to be ambitious.
+- Very liberal of you, Archie.
+
+247
+00:15:28,067 --> 00:15:31,868
+And he's right, we can't have
+an absentee Prime Minister.
+
+248
+00:15:34,268 --> 00:15:37,629
+Okay, you go and find a
+peasant girl with a low bodice,
+
+249
+00:15:37,749 --> 00:15:39,349
+and an inviting neck.
+
+250
+00:15:39,389 --> 00:15:40,989
+I've got some thinking to do.
+
+251
+00:15:51,752 --> 00:15:55,712
+My President is rather busy with
+events in the South China Sea.
+
+252
+00:15:55,752 --> 00:15:57,353
+And if we deploy Heracles,
+
+253
+00:15:57,473 --> 00:16:00,113
+how do you think that'll
+affect his job done there?
+
+254
+00:16:00,153 --> 00:16:02,154
+Don't do it.
+
+255
+00:16:02,234 --> 00:16:03,994
+We have no choice.
+
+256
+00:16:04,114 --> 00:16:07,635
+We would find a move
+like that very concerning.
+
+257
+00:16:07,715 --> 00:16:10,235
+Not as concerning
+as we found it
+
+258
+00:16:10,275 --> 00:16:14,076
+when a substantial part of
+the North Sea landed on Kent.
+
+259
+00:16:16,477 --> 00:16:19,957
+Oh, I'm sorry, I forgot.
+
+260
+00:16:19,997 --> 00:16:23,398
+You don't like it when I
+mention that little gaffe, do you?
+
+261
+00:16:23,478 --> 00:16:25,518
+I'll speak to the President,
+again.
+
+262
+00:16:25,638 --> 00:16:28,239
+Make sure he understands
+exactly what's at stake?
+
+263
+00:16:29,239 --> 00:16:31,120
+People won't be happy.
+
+264
+00:16:33,640 --> 00:16:36,361
+Happiness is overrated.
+
+265
+00:16:47,963 --> 00:16:49,243
+Quick word.
+
+266
+00:16:50,483 --> 00:16:52,884
+Are you prepared for this?
+
+267
+00:16:54,284 --> 00:16:56,125
+Yeah.
+
+268
+00:16:56,165 --> 00:16:59,285
+'Cause, uh, we may have
+to go right to the brink.
+
+269
+00:16:59,365 --> 00:17:02,686
+And cold wars can very
+easily become hot ones.
+
+270
+00:17:06,327 --> 00:17:09,207
+Is it three hours or five?
+
+271
+00:17:09,327 --> 00:17:12,568
+- Is what?
+- The time difference with Santiago.
+
+272
+00:17:15,368 --> 00:17:16,889
+Five.
+
+273
+00:17:16,969 --> 00:17:18,849
+And the clocks go forward.
+
+274
+00:17:30,051 --> 00:17:33,172
+- He's going downhill.
+- Obasi's on maneuvers.
+
+275
+00:17:33,292 --> 00:17:36,053
+- What, he's the one leaking on Robert?
+- I know!
+
+276
+00:17:36,133 --> 00:17:38,413
+Robert thinks it's me.
+
+277
+00:17:38,533 --> 00:17:40,973
+His head's not with us.
+
+278
+00:17:41,094 --> 00:17:44,454
+We can't survive this
+if he's not on top of his game.
+
+279
+00:17:44,574 --> 00:17:47,695
+He can't even sort out
+this shitshow in Kent.
+
+280
+00:17:47,815 --> 00:17:51,416
+Obasi can sort out Kent,
+he's had enough of Hawkins.
+
+281
+00:17:51,536 --> 00:17:53,656
+I'm off to Pixie Hollow.
+
+282
+00:18:11,860 --> 00:18:13,660
+Good morning, Anna!
+
+283
+00:18:14,660 --> 00:18:16,141
+May I come in?
+
+284
+00:18:24,342 --> 00:18:25,902
+You don't like me, Anna.
+
+285
+00:18:26,703 --> 00:18:28,423
+That's not exactly true.
+
+286
+00:18:28,543 --> 00:18:30,423
+I know what you're
+going to say, and I get it.
+
+287
+00:18:30,543 --> 00:18:32,344
+I'm not everybody's cappuccino.
+
+288
+00:18:32,384 --> 00:18:35,904
+I was going to say, "That's
+not exactly true, I detest you."
+
+289
+00:18:37,545 --> 00:18:38,905
+Good.
+
+290
+00:18:40,705 --> 00:18:42,866
+But that loathing,
+
+291
+00:18:43,946 --> 00:18:47,347
+which I assure you,
+is entirely mutual,
+
+292
+00:18:48,667 --> 00:18:52,068
+shouldn't be based
+on incorrect assumptions.
+
+293
+00:18:52,148 --> 00:18:56,309
+One of which is,
+that my self-deprecating humor
+
+294
+00:18:56,389 --> 00:18:58,629
+betrays a lack of seriousness.
+
+295
+00:18:58,669 --> 00:19:01,590
+The other assumption is that
+I don't care about my country.
+
+296
+00:19:01,670 --> 00:19:05,550
+- Not true.
+- Get on with it, you vile old crook.
+
+297
+00:19:10,351 --> 00:19:12,672
+Robert's in a bad place.
+
+298
+00:19:12,712 --> 00:19:14,072
+Since your departure,
+
+299
+00:19:14,152 --> 00:19:17,913
+the cyber threat to our
+nation has intensified.
+
+300
+00:19:20,233 --> 00:19:22,154
+You have to come back.
+
+301
+00:19:27,155 --> 00:19:28,195
+I can't.
+
+302
+00:19:28,315 --> 00:19:31,196
+If you don't,
+Abassey will move,
+
+303
+00:19:31,316 --> 00:19:33,716
+and I'll be forced
+to move with him.
+
+304
+00:19:33,836 --> 00:19:35,836
+You don't want to move?
+
+305
+00:19:40,397 --> 00:19:42,238
+Who knows Robert best?
+
+306
+00:19:43,358 --> 00:19:45,758
+- In politics, I mean.
+- Me.
+
+307
+00:19:46,319 --> 00:19:47,599
+You.
+
+308
+00:19:49,079 --> 00:19:51,160
+And after you?
+
+309
+00:19:55,160 --> 00:19:56,441
+Okay.
+
+310
+00:19:56,561 --> 00:19:59,321
+Go and talk to him.
+
+311
+00:19:59,401 --> 00:20:02,242
+- He won't see me.
+- He'll see you.
+
+312
+00:20:06,923 --> 00:20:09,683
+Do you think it was easy
+for me to come here?
+
+313
+00:20:13,644 --> 00:20:15,924
+What's that old Nazi doing here?
+
+314
+00:20:17,565 --> 00:20:21,166
+Just planning a bit of genocide.
+
+315
+00:20:23,926 --> 00:20:29,007
+Rude millennials,
+first on ze list, I'm afraid.
+
+316
+00:20:30,447 --> 00:20:32,728
+Carry on clicking, comrade.
+
+317
+00:20:33,928 --> 00:20:37,169
+Change.org will come.
+
+318
+00:20:42,610 --> 00:20:44,970
+It's a critical situation, Anna.
+
+319
+00:20:54,412 --> 00:20:56,413
+Earlier,
+I spoke to Francine Bridge
+
+320
+00:20:56,453 --> 00:20:57,733
+about a controversial leaflet
+
+321
+00:20:57,853 --> 00:20:59,453
+circulating
+in her constituency.
+
+322
+00:20:59,573 --> 00:21:00,933
+I have never suggested
+
+323
+00:21:00,973 --> 00:21:02,894
+that Kent should pay
+reparations for slavery.
+
+324
+00:21:02,934 --> 00:21:04,494
+It's an absurd invention,
+
+325
+00:21:04,614 --> 00:21:06,391
+which is being used by
+a renegade Tory candidate
+
+326
+00:21:06,415 --> 00:21:08,935
+who is clearly allowing himself
+to be used by the same forces
+
+327
+00:21:08,975 --> 00:21:10,375
+who were behind Firestorm.
+
+328
+00:21:10,415 --> 00:21:11,736
+And who
+do you think that is?
+
+329
+00:21:11,856 --> 00:21:12,896
+I have no idea!
+
+330
+00:21:12,936 --> 00:21:14,896
+- Good to see you, Joseph!
+- Yes.
+
+331
+00:21:14,936 --> 00:21:16,697
+Let me show you the, um...
+
+332
+00:21:16,777 --> 00:21:18,617
+You're doing
+door-to-door canvassing
+
+333
+00:21:18,697 --> 00:21:21,017
+in the middle of town
+and surrounding areas?
+
+334
+00:21:21,138 --> 00:21:23,098
+That's right,
+the less traditional areas.
+
+335
+00:21:23,178 --> 00:21:24,738
+Traditional? Right.
+
+336
+00:21:24,858 --> 00:21:26,979
+And what campaign material
+are you using?
+
+337
+00:21:27,099 --> 00:21:30,419
+Err, the leaflets
+have a new batch.
+
+338
+00:21:30,459 --> 00:21:32,100
+No, that's not one of ours.
+
+339
+00:21:32,180 --> 00:21:34,620
+- Whose is this?
+- Err, independent guess...
+
+340
+00:21:34,700 --> 00:21:38,581
+- Have your team handed any out?
+- Not to the best of my knowledge.
+
+341
+00:21:40,741 --> 00:21:45,142
+Rodger, its a moot point whether
+you're a Russian or just a useful idiot.
+
+342
+00:21:45,182 --> 00:21:49,623
+- Yet, I've supported you when others have not.
+- I know, I know!
+
+343
+00:21:49,703 --> 00:21:54,464
+But you seem to be under a
+misconception, which is sadly common,
+
+344
+00:21:54,584 --> 00:21:59,265
+that I will dismiss any allegations
+of racism as political correctness.
+
+345
+00:21:59,385 --> 00:22:03,266
+Or that I think that there's no such
+thing as structural discrimination.
+
+346
+00:22:04,626 --> 00:22:07,707
+For the record,
+neither are true.
+
+347
+00:22:07,787 --> 00:22:10,187
+Okay look,
+the very fact that you're here...
+
+348
+00:22:10,227 --> 00:22:14,348
+The very fact that I'm here,
+proves that one of the holders,
+
+349
+00:22:14,428 --> 00:22:17,509
+of the three great offices
+of state has come to visit.
+
+350
+00:22:17,629 --> 00:22:19,389
+So, show some damn respect!
+
+351
+00:22:19,429 --> 00:22:22,790
+Respect works both ways, Joseph.
+
+352
+00:22:30,271 --> 00:22:33,952
+On reflection, I think it would
+be better if I returned to London,
+
+353
+00:22:33,992 --> 00:22:37,393
+and informed the Prime Minister
+of what I've found here.
+
+354
+00:22:37,433 --> 00:22:39,193
+Yeah, send him.
+Send him!
+
+355
+00:22:39,233 --> 00:22:43,194
+Send Archie! Send
+Malcolm X, if you want.
+
+356
+00:22:43,234 --> 00:22:47,755
+He's unavailable. Due to
+being dead, you total chump!
+
+357
+00:22:47,875 --> 00:22:49,715
+Because I'm going to win
+this election,
+
+358
+00:22:49,755 --> 00:22:52,716
+with or without the support
+of the leadership,
+
+359
+00:22:52,796 --> 00:22:55,436
+who no longer represent
+true conservatism,
+
+360
+00:22:55,476 --> 00:23:00,157
+and takes the knee to
+George Soros and the like.
+
+361
+00:23:00,877 --> 00:23:02,198
+And the like?
+
+362
+00:23:03,438 --> 00:23:05,038
+Of course.
+
+363
+00:23:05,158 --> 00:23:07,999
+Full house, Rodger.
+I've seen enough.
+
+364
+00:23:15,440 --> 00:23:16,961
+If we suspend him now...
+
+365
+00:23:17,001 --> 00:23:18,441
+We don't have a candidate.
+
+366
+00:23:18,521 --> 00:23:19,641
+If I were a betting man...
+
+367
+00:23:19,721 --> 00:23:21,282
+- Which you are.
+- Which I am.
+
+368
+00:23:21,402 --> 00:23:23,722
+I would expect Firestorm
+to support him now.
+
+369
+00:23:23,762 --> 00:23:24,962
+It's a perfect outcome.
+
+370
+00:23:25,002 --> 00:23:26,203
+One they possibly planned.
+
+371
+00:23:26,243 --> 00:23:27,963
+If we suspend him,
+
+372
+00:23:28,043 --> 00:23:30,723
+- doesn't that increase his chances of winning?
+- Yes.
+
+373
+00:23:30,803 --> 00:23:32,740
+And then we'd have to figure
+out who's victory would be...
+
+374
+00:23:32,764 --> 00:23:34,364
+Who would be
+the bigger ass-ache.
+
+375
+00:23:34,444 --> 00:23:38,365
+And I'd suggest it's not
+an embittered and vengeful crank
+
+376
+00:23:38,445 --> 00:23:41,126
+crawling back to Westminster.
+
+377
+00:23:41,206 --> 00:23:43,206
+Worked for you.
+
+378
+00:23:43,286 --> 00:23:45,702
+In fairness, Archie does not serve
+the interests of a foreign power.
+
+379
+00:23:45,726 --> 00:23:46,887
+Who asked you?
+
+380
+00:23:46,967 --> 00:23:48,023
+And while I went
+to work for him
+
+381
+00:23:48,047 --> 00:23:49,167
+because the only
+other option
+
+382
+00:23:49,207 --> 00:23:50,887
+was political oblivion,
+
+383
+00:23:50,967 --> 00:23:54,128
+he is 100 percent committed
+to keeping you in post.
+
+384
+00:23:54,208 --> 00:23:56,729
+Unless you make
+it impossible.
+
+385
+00:23:56,769 --> 00:23:59,609
+I was unaware there was
+even a debate on the issue.
+
+386
+00:24:01,810 --> 00:24:04,690
+Might I make a suggestion,
+Prime Minister?
+
+387
+00:24:05,970 --> 00:24:07,891
+Why are you calling me
+Prime Minister
+
+388
+00:24:07,971 --> 00:24:10,011
+instead of Robert,
+all of a sudden?
+
+389
+00:24:10,131 --> 00:24:12,412
+You're the one
+who calls me Robert.
+
+390
+00:24:12,452 --> 00:24:14,772
+What are you up to?
+
+391
+00:24:14,892 --> 00:24:19,733
+My suggestion would be to find
+somebody who can act as a clandestine link
+
+392
+00:24:19,813 --> 00:24:22,734
+- between us and the opposition to lance this boil.
+- No.
+
+393
+00:24:22,774 --> 00:24:26,135
+Someone who's close to
+Francine Bridge and the opposition.
+
+394
+00:24:26,215 --> 00:24:29,135
+- No!
+- Well, that's a terrible shame, Prime Minister,
+
+395
+00:24:29,215 --> 00:24:33,736
+because I assumed you hadn't
+got your head completely stuck
+
+396
+00:24:33,776 --> 00:24:36,016
+in the soup tureen of paranoia
+
+397
+00:24:36,137 --> 00:24:37,737
+from which you've been
+guzzling, of late.
+
+398
+00:24:37,817 --> 00:24:40,937
+This is the last fucking time,
+Archie...
+
+399
+00:24:40,977 --> 00:24:43,698
+I've already asked her
+along for a meeting.
+
+400
+00:24:56,661 --> 00:24:57,981
+Archie!
+
+401
+00:24:59,741 --> 00:25:00,981
+I thought we agreed.
+
+402
+00:25:01,021 --> 00:25:03,742
+- Rookie error.
+- What, you don't want it?
+
+403
+00:25:05,382 --> 00:25:08,783
+I wanted to give Robert
+one last roll of the dice.
+
+404
+00:25:08,903 --> 00:25:11,144
+Hopefully, it's worked.
+
+405
+00:25:11,224 --> 00:25:13,064
+You think he still
+has it in him?
+
+406
+00:25:13,184 --> 00:25:15,984
+We'll have to see,
+won't we?
+
+407
+00:25:16,024 --> 00:25:18,745
+But when Robert's
+firing on most cylinders,
+
+408
+00:25:18,825 --> 00:25:22,266
+I would put my money on him
+before anybody else.
+
+409
+00:25:25,226 --> 00:25:27,067
+Which is what I did.
+
+410
+00:25:40,309 --> 00:25:44,630
+I did not advise Rachel
+to go away.
+
+411
+00:25:47,711 --> 00:25:49,791
+I made the wrong call
+on Hawkins.
+
+412
+00:25:52,672 --> 00:25:55,912
+You made a call. Your reasons
+for doing so were unders...
+
+413
+00:25:55,992 --> 00:25:58,953
+- I made the wrong call.
+- Yeah, okay, you did.
+
+414
+00:26:02,314 --> 00:26:03,674
+We've never fallen out.
+
+415
+00:26:04,714 --> 00:26:07,075
+Yes, you were very angry once,
+
+416
+00:26:07,195 --> 00:26:10,195
+when I was voted onto
+the ball committee, and,
+
+417
+00:26:10,235 --> 00:26:13,396
+you came bottom because
+nobody really knew who you were.
+
+418
+00:26:14,396 --> 00:26:15,756
+I loved you.
+
+419
+00:26:19,037 --> 00:26:21,198
+I just never ever
+dared to say it.
+
+420
+00:26:29,799 --> 00:26:31,240
+It doesn't matter now.
+
+421
+00:26:48,243 --> 00:26:51,444
+Would you like me
+to talk to Francine
+
+422
+00:26:51,484 --> 00:26:54,004
+about a meeting with the
+Leader of the Opposition?
+
+423
+00:26:54,084 --> 00:26:56,084
+- Yes.
+- And you should address the nation
+
+424
+00:26:56,205 --> 00:26:57,685
+on the threat
+we're under.
+
+425
+00:26:57,765 --> 00:27:00,285
+Time for honesty
+with the people.
+
+426
+00:27:00,405 --> 00:27:01,686
+You're good at that.
+
+427
+00:27:01,766 --> 00:27:02,846
+Okay.
+
+428
+00:28:06,098 --> 00:28:09,099
+You need to stop
+watching and start acting.
+
+429
+00:28:09,219 --> 00:28:12,300
+Make them stop or you
+will share in the disaster.
+
+430
+00:28:12,420 --> 00:28:13,700
+Okay.
+
+431
+00:28:13,780 --> 00:28:15,660
+Interfering with missile
+defense systems
+
+432
+00:28:15,740 --> 00:28:19,701
+in the middle of a geo-political
+crisis isn't the solution.
+
+433
+00:28:21,582 --> 00:28:23,582
+No one thinks we'll go
+through with it, do they?
+
+434
+00:28:23,702 --> 00:28:25,662
+No.
+
+435
+00:28:25,742 --> 00:28:30,023
+They think your PM is,
+and I quote:
+
+436
+00:28:30,103 --> 00:28:33,784
+“A dying bee
+crawling towards oblivion”.
+
+437
+00:28:34,304 --> 00:28:35,984
+A dying bee?
+
+438
+00:28:36,705 --> 00:28:38,705
+Maybe.
+
+439
+00:28:38,785 --> 00:28:43,506
+But make sure they know that's
+when you're most likely to get stung.
+
+440
+00:28:43,546 --> 00:28:47,987
+If they don't push the
+kill-switch by 3 pm tomorrow,
+
+441
+00:28:48,027 --> 00:28:51,027
+we will activate Heracles
+with consequences
+
+442
+00:28:51,067 --> 00:28:54,188
+that will knock everybody
+off their balance.
+
+443
+00:29:03,670 --> 00:29:05,350
+Our American friends
+have found out
+
+444
+00:29:05,470 --> 00:29:08,351
+the next big cyber-attack
+will be the economy.
+
+445
+00:29:08,471 --> 00:29:13,512
+The banking system, all financial
+transactions, credit cards...
+
+446
+00:29:13,552 --> 00:29:15,792
+- So, how do we...
+- We don't.
+
+447
+00:29:15,832 --> 00:29:18,353
+The malware is already
+buried in the system,
+
+448
+00:29:18,473 --> 00:29:21,113
+sending back
+reassuring data,
+
+449
+00:29:21,234 --> 00:29:24,434
+while preparing its chaos
+once they detonate.
+
+450
+00:29:24,514 --> 00:29:28,195
+And the same will be true across
+our entire infrastructure system.
+
+451
+00:29:28,275 --> 00:29:31,796
+Including nuclear power
+stations.
+
+452
+00:29:31,876 --> 00:29:34,556
+The Prime Minister
+is going to address the nation.
+
+453
+00:29:34,676 --> 00:29:36,197
+Then what do we do?
+
+454
+00:29:36,277 --> 00:29:40,277
+Then we check our hand,
+and adopt our best poker face.
+
+455
+00:29:53,280 --> 00:29:55,240
+I am speaking
+to you today,
+
+456
+00:29:55,280 --> 00:29:59,041
+because of the very grave situation
+in which the country finds itself.
+
+457
+00:29:59,121 --> 00:30:01,081
+Late last night,
+
+458
+00:30:01,202 --> 00:30:07,203
+the latest in a wave of serious
+cyber-attacks was launched on our country.
+
+459
+00:30:07,283 --> 00:30:11,244
+This one involves the
+disruption of our financial systems
+
+460
+00:30:11,284 --> 00:30:15,604
+and was designed to bring
+our economy to its knees.
+
+461
+00:30:15,724 --> 00:30:19,725
+I'm afraid to say that no one will
+be able to use any kind of cards
+
+462
+00:30:19,805 --> 00:30:23,006
+for purchases or
+withdrawing cash.
+
+463
+00:30:23,046 --> 00:30:26,607
+And our intelligence
+shows that this situation
+
+464
+00:30:26,727 --> 00:30:29,807
+is only likely to worsen
+in the coming days.
+
+465
+00:30:30,527 --> 00:30:32,088
+Now, this could involve
+
+466
+00:30:32,208 --> 00:30:34,128
+an attack on
+our critical infrastructure,
+
+467
+00:30:34,248 --> 00:30:36,969
+the like of which
+we have never seen before,
+
+468
+00:30:37,049 --> 00:30:40,809
+which could result in
+further loss of life,
+
+469
+00:30:40,849 --> 00:30:43,090
+catastrophic impacts
+on the vulnerable,
+
+470
+00:30:43,210 --> 00:30:46,491
+and indeed, the
+destruction of our economy.
+
+471
+00:30:47,491 --> 00:30:49,251
+And it is my firm belief
+
+472
+00:30:49,291 --> 00:30:53,052
+that what began
+as “Operation Ruin Britannia”
+
+473
+00:30:53,132 --> 00:30:57,693
+is now a joint operation
+between two hostile nations.
+
+474
+00:30:59,813 --> 00:31:01,734
+Are you listening?
+
+475
+00:31:01,814 --> 00:31:05,054
+Does he sound like he's
+crawling into the long grass to die?
+
+476
+00:31:05,134 --> 00:31:09,455
+Unless we have clear evidence that the
+kill-switch has been activated in Cerberus
+
+477
+00:31:09,535 --> 00:31:11,296
+by 3 pm today,
+
+478
+00:31:11,336 --> 00:31:13,456
+we will go to
+a new level of conflict
+
+479
+00:31:13,536 --> 00:31:16,096
+with dire consequences
+for everyone.
+
+480
+00:31:16,217 --> 00:31:17,777
+Including you.
+
+481
+00:31:17,817 --> 00:31:19,017
+Clearly, though,
+
+482
+00:31:19,057 --> 00:31:20,697
+the cyber and
+information attacks
+
+483
+00:31:20,777 --> 00:31:22,858
+are part of
+an overall assault,
+
+484
+00:31:22,978 --> 00:31:25,778
+which includes a campaign
+of misinformation
+
+485
+00:31:25,818 --> 00:31:28,099
+extending to my own family
+
+486
+00:31:28,219 --> 00:31:31,620
+alongside interference
+in our political processes
+
+487
+00:31:31,740 --> 00:31:36,861
+that has led to a crisis of faith, in
+those whom you should most trust.
+
+488
+00:31:36,981 --> 00:31:41,542
+As a result, one of our
+most distinguished judges
+
+489
+00:31:41,582 --> 00:31:42,902
+was brutally murdered.
+
+490
+00:31:44,822 --> 00:31:48,303
+And there are still, according
+to the security services,
+
+491
+00:31:48,343 --> 00:31:53,384
+credible assassination threats
+against senior politicians.
+
+492
+00:31:53,504 --> 00:31:55,344
+Now, as of today,
+
+493
+00:31:55,464 --> 00:31:57,745
+I have suspended
+the party membership
+
+494
+00:31:57,825 --> 00:32:01,065
+of our candidate in the
+forthcoming Medwick byelection,
+
+495
+00:32:01,145 --> 00:32:03,586
+because of his involvement
+in the Firestorm platform,
+
+496
+00:32:03,706 --> 00:32:08,227
+which I believe is being supported
+by Russian specialist cyber-units
+
+497
+00:32:08,307 --> 00:32:12,148
+and for distributing
+racist propaganda.
+
+498
+00:32:12,268 --> 00:32:16,148
+Now, it is too late for us
+to nominate an alternative,
+
+499
+00:32:16,269 --> 00:32:19,629
+so, I call upon you to
+vote for any candidate
+
+500
+00:32:19,749 --> 00:32:24,310
+so long as they are wedded to the
+principles of democracy and the rule of law.
+
+501
+00:32:25,110 --> 00:32:27,351
+Lastly, I have this to say
+
+502
+00:32:27,471 --> 00:32:31,512
+to those who seek to bring
+our country to its knees,
+
+503
+00:32:31,552 --> 00:32:37,713
+whether that be in Moscow, Beijing
+or the capital of any hostile nation.
+
+504
+00:32:38,993 --> 00:32:42,714
+We may not be the power
+we once were.
+
+505
+00:32:42,794 --> 00:32:44,834
+And perhaps, that is why
+we have been chosen
+
+506
+00:32:44,874 --> 00:32:48,075
+for this demonstration
+of brute power.
+
+507
+00:32:48,155 --> 00:32:51,876
+But we have a history
+of continuing the struggle
+
+508
+00:32:51,996 --> 00:32:53,796
+when the odds
+are against us.
+
+509
+00:32:54,556 --> 00:32:57,557
+And I will stop at nothing
+
+510
+00:32:57,597 --> 00:33:00,637
+to end this unprecedented,
+
+511
+00:33:00,757 --> 00:33:04,918
+and completely unprovoked
+attack against our country.
+
+512
+00:33:05,038 --> 00:33:08,319
+Cyber-warfare
+is still warfare.
+
+513
+00:33:08,359 --> 00:33:11,720
+Just because it takes place out
+of sight and without explosions,
+
+514
+00:33:11,800 --> 00:33:16,160
+does not mean that it does not
+cause extraordinary suffering.
+
+515
+00:33:16,281 --> 00:33:20,401
+And we will defend ourselves
+by any means necessary,
+
+516
+00:33:20,521 --> 00:33:24,762
+just as we would if we were being
+threatened by nuclear weapons.
+
+517
+00:33:24,842 --> 00:33:29,523
+We will undertake a struggle
+of Herculean proportions
+
+518
+00:33:29,563 --> 00:33:33,724
+to defend ourselves
+as a sovereign nation state.
+
+519
+00:33:34,884 --> 00:33:36,245
+Thank you.
+
+520
+00:33:54,008 --> 00:33:56,329
+If I could just have everyone's
+attention for a moment?
+
+521
+00:33:57,649 --> 00:33:59,809
+In this rather
+unprecedented time,
+
+522
+00:33:59,849 --> 00:34:02,730
+I'd like to welcome
+the Leader of the Opposition.
+
+523
+00:34:02,810 --> 00:34:06,010
+Very grateful, Robert. That was
+an excellent speech, by the way.
+
+524
+00:34:06,130 --> 00:34:07,171
+Thank you.
+
+525
+00:34:11,532 --> 00:34:14,652
+- Nice to have you back, Francine.
+- All right, no need for that.
+
+526
+00:34:16,132 --> 00:34:19,853
+So, how does this stop?
+What do they want?
+
+527
+00:34:19,933 --> 00:34:21,294
+We don't know.
+
+528
+00:34:21,334 --> 00:34:23,254
+It looks like
+we've reached a point
+
+529
+00:34:23,334 --> 00:34:24,934
+where the war
+is almost running itself.
+
+530
+00:34:25,014 --> 00:34:26,295
+So, what do we do?
+
+531
+00:34:26,335 --> 00:34:28,935
+We have an offensive
+cyber capacity.
+
+532
+00:34:29,015 --> 00:34:33,416
+It involves interference
+with missile defense systems.
+
+533
+00:34:33,496 --> 00:34:37,177
+It was developed by
+Division 45 of the Cyber Unit
+
+534
+00:34:37,257 --> 00:34:39,457
+with other countries,
+including Israel.
+
+535
+00:34:39,537 --> 00:34:42,458
+But we have modified
+its attack vectors.
+
+536
+00:34:42,538 --> 00:34:44,258
+Modified?
+
+537
+00:34:44,338 --> 00:34:46,659
+We've made it more of a
+shotgun than a precise weapon.
+
+538
+00:34:46,739 --> 00:34:48,179
+Why?
+
+539
+00:34:48,259 --> 00:34:51,420
+Because if we unleash it,
+it will have two consequences.
+
+540
+00:34:51,500 --> 00:34:55,180
+First, it could give off
+false missile alerts.
+
+541
+00:34:55,260 --> 00:34:57,141
+Yeah, well, that's
+quite dangerous, isn't it?
+
+542
+00:34:57,221 --> 00:34:59,541
+- That is quite dangerous.
+- What's the second consequence?
+
+543
+00:34:59,621 --> 00:35:01,462
+If we release it
+somewhat wildly,
+
+544
+00:35:01,542 --> 00:35:04,342
+then it could fall into
+the hands of smaller fish.
+
+545
+00:35:04,382 --> 00:35:08,543
+It could start off that
+inadvertent hot war
+
+546
+00:35:08,663 --> 00:35:10,343
+we've been warned
+so much about.
+
+547
+00:35:11,544 --> 00:35:13,664
+I think the days of
+suggesting nuclear subs
+
+548
+00:35:13,744 --> 00:35:15,984
+with no weapons
+are over.
+
+549
+00:35:16,064 --> 00:35:19,265
+And I think when the country
+is under threat as it is,
+
+550
+00:35:19,345 --> 00:35:21,225
+it is the duty of any
+reasonable opposition
+
+551
+00:35:21,306 --> 00:35:23,266
+to support the government
+in its task.
+
+552
+00:35:26,867 --> 00:35:28,067
+Thank you, Chris.
+
+553
+00:35:29,347 --> 00:35:31,988
+Anna will coordinate
+with your office
+
+554
+00:35:32,068 --> 00:35:34,268
+over that other
+small matter in Kent.
+
+555
+00:35:34,348 --> 00:35:37,869
+Unfortunately,
+this new J23 group
+
+556
+00:35:37,909 --> 00:35:39,709
+have issued further threats
+
+557
+00:35:39,789 --> 00:35:43,190
+with regards to violent
+interventions in the election.
+
+558
+00:35:43,270 --> 00:35:45,230
+We're increasing
+security,
+
+559
+00:35:45,310 --> 00:35:47,071
+and I'll be briefing
+both of you
+
+560
+00:35:47,191 --> 00:35:49,511
+once our main problem
+is out of the way.
+
+561
+00:35:49,631 --> 00:35:50,871
+Watch out.
+
+562
+00:35:50,911 --> 00:35:52,792
+I may not give her back.
+
+563
+00:35:56,353 --> 00:35:57,753
+We'll see.
+
+564
+00:36:00,673 --> 00:36:02,874
+Obviously,
+we wouldn't actually do it.
+
+565
+00:36:02,954 --> 00:36:05,074
+Release Heracles.
+
+566
+00:36:05,194 --> 00:36:07,275
+I've been asked before,
+
+567
+00:36:07,355 --> 00:36:11,195
+in the event of a nuclear
+attack, would I push the button?
+
+568
+00:36:11,276 --> 00:36:14,276
+And your answer
+is clearly “yes”, because...
+
+569
+00:36:15,356 --> 00:36:16,837
+That's how deterrents work.
+
+570
+00:36:20,277 --> 00:36:21,758
+Would you?
+
+571
+00:36:23,518 --> 00:36:25,078
+Would I push a button
+
+572
+00:36:25,198 --> 00:36:27,799
+that incinerated millions
+of men, women and children?
+
+573
+00:36:34,720 --> 00:36:37,761
+I'm afraid sighing
+doesn't really cut it.
+
+574
+00:36:38,521 --> 00:36:40,441
+- Hegel...
+- No.
+
+575
+00:36:40,521 --> 00:36:43,882
+- I don't think philosophy...
+- There's always a place for philosophy.
+
+576
+00:36:43,922 --> 00:36:46,363
+And I think there's
+a genuine dialectic
+
+577
+00:36:46,403 --> 00:36:48,363
+- when it comes to...
+- Would you push the button?
+
+578
+00:36:52,164 --> 00:36:55,404
+If you saw a nuclear missile
+headed towards London.
+
+579
+00:36:57,725 --> 00:37:00,285
+You know
+what I'd do.
+
+580
+00:37:11,928 --> 00:37:14,888
+I'm heading over
+to Labor Party HQ.
+
+581
+00:37:14,928 --> 00:37:17,369
+And then, down to Kent
+with Francine.
+
+582
+00:37:18,529 --> 00:37:19,929
+But you'll come back?
+
+583
+00:37:21,290 --> 00:37:22,970
+What do you think?
+
+584
+00:37:28,571 --> 00:37:30,011
+- Hi.
+- Hi!
+
+585
+00:37:33,452 --> 00:37:36,212
+They've detected the
+Cerberus virus in a nuclear plant.
+
+586
+00:37:36,293 --> 00:37:38,973
+It's been lying dormant
+and harvesting data.
+
+587
+00:37:40,493 --> 00:37:42,374
+When's the deadline?
+
+588
+00:37:43,934 --> 00:37:45,174
+30 minutes.
+
+589
+00:38:19,381 --> 00:38:21,782
+Our currency's taken
+a massive hit.
+
+590
+00:38:21,862 --> 00:38:23,462
+Stock exchange suspended.
+
+591
+00:38:23,542 --> 00:38:27,983
+No time-stamping possible on any
+transactions makes it impossible.
+
+592
+00:38:28,063 --> 00:38:30,343
+We're heading
+for total financial collapse.
+
+593
+00:38:40,825 --> 00:38:42,946
+You are aware of the risks?
+
+594
+00:38:44,226 --> 00:38:48,787
+This has the potential
+to start World War III.
+
+595
+00:38:48,867 --> 00:38:53,348
+It will destabilize anti-missile
+defenses around the globe.
+
+596
+00:39:00,789 --> 00:39:02,470
+How about the Americans?
+
+597
+00:39:02,550 --> 00:39:04,590
+Have we heard anything?
+
+598
+00:39:04,710 --> 00:39:06,351
+A sign of any sort?
+
+599
+00:39:09,111 --> 00:39:10,351
+Nothing.
+
+600
+00:39:16,272 --> 00:39:19,713
+So, the idea is to make it
+less of an election,
+
+601
+00:39:19,793 --> 00:39:22,314
+more a referendum
+on democracy.
+
+602
+00:39:22,394 --> 00:39:24,314
+Yep.
+Agree with that.
+
+603
+00:39:24,394 --> 00:39:27,475
+- Tolerance.
+- Wishy-washy.
+
+604
+00:39:27,555 --> 00:39:29,835
+Well, we can toughen it up,
+but we need to make sure
+
+605
+00:39:29,915 --> 00:39:31,916
+you sound reasonable
+next to Rodger.
+
+606
+00:39:31,956 --> 00:39:33,276
+That shouldn't be too difficult.
+
+607
+00:39:53,520 --> 00:39:56,080
+What's wishy-washy
+about tolerance?
+
+608
+00:39:56,200 --> 00:39:58,361
+I'm just saying
+better words, that's all.
+
+609
+00:39:58,401 --> 00:40:00,201
+Don't give yourself
+a hot flush!
+
+610
+00:40:00,281 --> 00:40:02,682
+How many bloody times...
+They're not a joke.
+
+611
+00:40:02,762 --> 00:40:04,482
+I know! I'm sorry.
+
+612
+00:40:15,004 --> 00:40:17,125
+Don't do it!
+
+613
+00:40:17,245 --> 00:40:18,925
+We need
+a signal, Kelly.
+
+614
+00:40:19,005 --> 00:40:20,725
+We need a sign.
+
+615
+00:40:20,805 --> 00:40:22,606
+This is not the
+time to light a fuse.
+
+616
+00:40:22,726 --> 00:40:25,046
+We are piling pressure
+on both players.
+
+617
+00:40:25,126 --> 00:40:28,767
+They have to send an
+immediate message that it's over,
+
+618
+00:40:28,847 --> 00:40:30,407
+or we go active.
+
+619
+00:40:38,889 --> 00:40:40,089
+Yeah?
+
+620
+00:40:41,970 --> 00:40:44,090
+Thank you.
+
+621
+00:40:44,210 --> 00:40:46,931
+That was the Governor
+of the Bank of England.
+
+622
+00:40:47,011 --> 00:40:48,611
+The pound is
+in total free-fall,
+
+623
+00:40:48,731 --> 00:40:51,732
+and all their systems are
+compromised by Cerberus.
+
+624
+00:40:51,812 --> 00:40:54,212
+They can't do a thing.
+
+625
+00:40:54,292 --> 00:40:56,012
+We're heading for the buffers.
+
+626
+00:41:05,814 --> 00:41:07,335
+Stand by, Eleanor.
+
+627
+00:41:08,855 --> 00:41:10,095
+Stand by.
+
+628
+00:41:10,215 --> 00:41:13,016
+Well, go on then,
+if you want to get past.
+
+629
+00:41:17,937 --> 00:41:19,417
+Did he just hit your car?
+
+630
+00:41:22,818 --> 00:41:23,938
+Activate Heracles.
+
+631
+00:41:23,978 --> 00:41:25,578
+Do it now!
+
+632
+00:41:27,099 --> 00:41:28,699
+Out! Get out, get out!
+
+633
+00:41:28,779 --> 00:41:30,619
+- What's going on?
+- No, I know him! He's safe.
+
+634
+00:41:30,699 --> 00:41:32,020
+He's one of Eleanor's, go, go!
+
+635
+00:41:32,100 --> 00:41:35,020
+- Get out, get out!
+- Miss, clear the vehicle. Go!
+
+636
+00:41:35,100 --> 00:41:36,581
+Go!
+
+637
+00:41:43,982 --> 00:41:46,102
+Wait!
+There's a change in the pattern.
+
+638
+00:41:54,464 --> 00:41:56,224
+Timestamping's
+back to normal!
+
+639
+00:41:56,304 --> 00:41:58,305
+Transactions are clearing again.
+
+640
+00:41:58,385 --> 00:42:00,465
+They've blinked.
+
+641
+00:42:01,506 --> 00:42:02,866
+There's a kill-switch.
+
+642
+00:42:16,589 --> 00:42:18,549
+With both the US
+and the Chinese fleets
+
+643
+00:42:18,629 --> 00:42:21,069
+pulling back from the brink
+in the South China Sea,
+
+644
+00:42:21,149 --> 00:42:25,430
+there are hopes that the cyber
+threat to the UK has also diminished.
+
+645
+00:42:25,470 --> 00:42:28,831
+The Prime Minister, Robert
+Sutherland, had this to say earlier.
+
+646
+00:42:28,911 --> 00:42:34,752
+Assassinations, electoral
+interference, false alerts.
+
+647
+00:42:34,832 --> 00:42:37,393
+And lastly,
+an all-out cyber-attack.
+
+648
+00:42:40,593 --> 00:42:41,994
+The aim?
+
+649
+00:42:42,074 --> 00:42:43,514
+To create such chaos,
+
+650
+00:42:43,594 --> 00:42:45,434
+that it would
+destroy our democracy,
+
+651
+00:42:45,514 --> 00:42:47,995
+and show the world
+what damage can be inflicted
+
+652
+00:42:48,075 --> 00:42:50,515
+without the need
+for missiles.
+
+653
+00:42:50,595 --> 00:42:52,556
+I am pleased
+to tell you tonight,
+
+654
+00:42:52,636 --> 00:42:54,796
+that the threat appears
+to have receded,
+
+655
+00:42:54,876 --> 00:42:58,517
+thanks to the efforts
+of our own cyber defenses.
+
+656
+00:42:58,597 --> 00:43:00,957
+We should be
+in no doubt, however,
+
+657
+00:43:00,997 --> 00:43:03,118
+that there is no room
+for complacency.
+
+658
+00:43:03,238 --> 00:43:07,959
+For next time, the
+consequences could be far worse.
+
+659
+00:43:08,039 --> 00:43:10,879
+Tonight, I must also
+express my outrage
+
+660
+00:43:10,959 --> 00:43:13,840
+at another terror attack on
+a parliamentary candidate,
+
+661
+00:43:13,920 --> 00:43:15,480
+Francine Bridge,
+
+662
+00:43:15,560 --> 00:43:18,841
+who has fortunately survived
+without major injury.
+
+663
+00:43:20,441 --> 00:43:23,962
+The life of my colleague
+and friend, Anna Marshall,
+
+664
+00:43:24,002 --> 00:43:27,003
+however, hangs
+in the balance.
+
+665
+00:43:27,083 --> 00:43:30,963
+Anna represents the best
+traditions of our country.
+
+666
+00:43:31,764 --> 00:43:34,084
+Tolerance, decency,
+
+667
+00:43:34,164 --> 00:43:37,085
+and a desire to serve
+the national interests.
+
+668
+00:43:38,405 --> 00:43:41,886
+I hope you will hold
+her in your prayers,
+
+669
+00:43:41,966 --> 00:43:43,286
+as I do.
+
