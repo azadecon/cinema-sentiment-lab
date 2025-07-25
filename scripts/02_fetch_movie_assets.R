@@ -1,5 +1,5 @@
 #########################################################################################################
-#Purpose: to Collect movie materials(subtitles,  for the sample movies
+#Purpose: to Collect movie materials (subtitles, descriptions/plot, posters)  for the sample movies
 #########################################################################################################
 
 #########################################################################################################
@@ -13,6 +13,13 @@ library(tools)
 
 ## setting the globals (as in the .Renviron file)
 sub_dl_api <- Sys.getenv("SUB_DL_API")
+
+## source helper functions
+### subtitle scraper
+source("./scripts/00_subtitle_scraper.R")
+
+### Wikipedia scraper for plots
+source("./scripts/00_wiki_plot_scraper.R")
 
 # initialize an empty dataframe to record the request status
 subtitle_log <- data.frame(
@@ -28,133 +35,62 @@ if (!dir.exists(download_dir)) dir.create(download_dir, recursive = TRUE)
 common_srt_dir = "./data/raw/subtitles/all_srts/"
 if (!dir.exists(common_srt_dir)) dir.create(common_srt_dir, recursive = TRUE)
 
-# define the scraping function
-get_subtitle <- function(imdb_id,
-                         api_key = sub_dl_api,
-                         language = "EN") {
-  # Use global dirs directly
-  download_dir <- download_dir
-  common_srt_dir <- common_srt_dir
-  
-  
-  # Build request URL
-  req_url <- paste0(
-    "https://api.subdl.com/api/v1/subtitles?",
-    "api_key=", api_key,
-    "&imdb_id=", imdb_id,
-    "&type=movie",
-    "&languages=", language
-  )
-  
-  # Perform request
-  res <- tryCatch({
-    VERB("GET", url = req_url)
-  }, error = function(e) {
-    message("Request error for ", imdb_id)
-    return(NULL)
-  })
-  
-  if (is.null(res) || status_code(res) != 200) {
-    message("HTTP error for ", imdb_id)
-    return(NULL)
-  }
-  
-  # Parse JSON
-  json_content <- content(res, "text", encoding = "UTF-8")
-  data_recvd <- fromJSON(json_content)
-  
-  # log the result of request
-  subtitle_log <<- rbind(
-    subtitle_log,
-    data.frame(imdb_id = imdb_id, status = isTRUE(data_recvd$status), stringsAsFactors = FALSE)
-  )
-  
-  
-  
-  if (!isTRUE(data_recvd$status) || is.null(data_recvd$subtitles$url[1])) {
-    message("No subtitles for ", imdb_id)
-    return(NULL)
-  }
-  
-  # Download ZIP
-  zip_suburl <- data_recvd$subtitles$url[1]
-  srt_zip_url <- paste0("https://dl.subdl.com", zip_suburl)
-  destfile <- file.path(download_dir, paste0(imdb_id, ".zip"))
-  
-  tryCatch({
-    download.file(srt_zip_url, destfile = destfile, mode = "wb")
-    message("Downloaded for ", imdb_id)
-    
-    # Unzip to temp dir
-    unzip_dir <- file.path(download_dir, imdb_id)
-    dir.create(unzip_dir, showWarnings = FALSE)
-    unzip(destfile, exdir = unzip_dir)
-    
-    # List .srt files
-    srt_files <- list.files(unzip_dir, pattern = "\\.srt$", full.names = TRUE)
-    if (length(srt_files) == 0) {
-      message("No .srt files found for ", imdb_id)
-      return(NULL)
-    }
-    
-    # Move and rename .srt files
-    moved_files <- c()
-    for (i in seq_along(srt_files)) {
-      ext <- file_ext(srt_files[i])
-      new_name <- if (length(srt_files) == 1) {
-        paste0(imdb_id, ".", ext)
-      } else {
-        paste0(imdb_id, "_", i, ".", ext)
-      }
-      new_path <- file.path(common_srt_dir, new_name)
-      file.copy(srt_files[i], new_path, overwrite = TRUE)
-      moved_files <- c(moved_files, new_path)
-    }
-    
-    return(moved_files)
-    
-  }, error = function(e) {
-    message("Download/unzip error for ", imdb_id)
-    return(NULL)
-  })
-}
-
-# initialise the list of `imdb_id`
+# initialize the list of `imdb_id`
 bolly_sample_100 <- read_csv("./data/clean/bolly_sample_100.csv")
 imdb_vec <- bolly_sample_100$imdb_id
 
 # scrape all subtitles
-results_list <- lapply(imdb_vec, get_subtitle)
+lapply(imdb_vec, get_subtitle)
+
+
+# calculate the success rate
+num_srt <- length(list.files(common_srt_dir))
+pct_plot <- 100*num_srt/nrow(bolly_descriptions_100)
+cat("The success rate is:\n", pct_plot, "%\n")
+
+# Its likely that the rest of the movies are slightly obscure.
+# though this is on low side, rest of the subtitles can be downloaded from other sources.
+# we can try other subtitle websites (it is a matter of API discovery)
+# other prominent source can be torrent websites (unethical but a good source nevertheless)
+
+
+#########################################################################################################
+#Section II: obtain movies description (plot) from Wikipedia
+#########################################################################################################
+
+# initialise the list of `wiki_link`
+bolly_descriptions_100 <- read_csv("./data/clean/bolly_sample_100.csv") %>% select(imdb_id, wiki_link)
+
+# Apply the wikipedia scraper to each row and create a new column to bring all descriptions
+bolly_descriptions_100$plot <- map_chr(bolly_descriptions_100$wiki_link, get_plot_text)
+
+# calculate the success rate
+pct_plot <- 100*sum(!is.na(bolly_descriptions_100$plot))/nrow(bolly_descriptions_100)
+cat("The success rate is:\n", pct_plot, "%\n")
+
+# though this is on higher side, this can still be improved. Plot/synopsis/descriptions are relatively abundant.
+# other sources could be `wikidata`, `imdb`, `google knowledge graph` etc.
+
+## its likely that some wikipedia page didnt have plots. checking a few to confirm
+movies_to_check <- bolly_descriptions_100 %>% filter(is.na(plot)) %>% select(-plot)
+
+# Select one random NA plot row
+random_link <- sample(movies_to_check$wiki_link, 1)
+
+# Open it in the browser
+browseURL(random_link)
+
+## some movies have `Synopsis` instead of `plot`, this can be searched in addition to find the movie description.
+
+# save the plot
+dir.create("data/raw/plot", recursive = TRUE, showWarnings = FALSE)
+write_csv(bolly_descriptions_100, "./data/raw/plot/bolly_descriptions_100.csv")
 
 
 
 #########################################################################################################
-#Section II: obtain movies subtitles file (.srt)
+#Section III: obtain movies posters from Wikipedia
 #########################################################################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
