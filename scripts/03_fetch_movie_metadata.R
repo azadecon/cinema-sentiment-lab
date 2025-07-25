@@ -7,6 +7,9 @@
 ### director scraper
 source("./scripts/00_director_scraper.R")
 
+### collection scraper
+source("./scripts/00_collection_scraper.R")
+
 #########################################################################################################
 #Section I: obtain movies director name
 #########################################################################################################
@@ -16,7 +19,7 @@ library(jsonlite)
 library(httr)
 library(tools)
 
-# Example dataframe
+# load `imdb_id`
 bolly_direc <- read_csv("./data/clean/bolly_sample_100.csv") %>% select(imdb_id)
 
 # Add director column by mapping over imdb ids
@@ -34,3 +37,25 @@ write_csv(bolly_direc, paste0(metadata_dir, "/bolly_direc.csv"))
 #########################################################################################################
 #Section II: obtain movies boxoffice collection
 #########################################################################################################
+
+# load `imdb_id`
+bolly_collection <- read_csv("./data/clean/bolly_sample_100.csv") %>% select(imdb_id)
+
+# Add collection column by mapping over imdb ids
+bolly_collection <- bolly_collection %>%
+  mutate(collection = map_chr(imdb_id, get_mojo_value))
+
+write_csv(bolly_collection, paste0(metadata_dir, "/bolly_collection.csv"))
+
+
+
+
+
+
+
+
+
+
+
+
+
