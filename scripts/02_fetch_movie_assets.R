@@ -2,6 +2,18 @@
 #Purpose: to Collect movie materials (subtitles, descriptions/plot, posters)  for the sample movies
 #########################################################################################################
 
+## setting the globals (as in the .Renviron file)
+sub_dl_api <- Sys.getenv("SUB_DL_API")
+tmdb_api_key <- Sys.getenv("TMDB_API_KEY")
+
+## source helper functions
+### subtitle scraper
+source("./scripts/00_subtitle_scraper.R")
+
+### Wikipedia scraper for plots
+source("./scripts/00_wiki_plot_scraper.R")
+
+
 #########################################################################################################
 #Section I: obtain movies subtitles file (.srt)
 #########################################################################################################
@@ -10,16 +22,6 @@ library(tidyverse)
 library(jsonlite)
 library(httr)
 library(tools)
-
-## setting the globals (as in the .Renviron file)
-sub_dl_api <- Sys.getenv("SUB_DL_API")
-
-## source helper functions
-### subtitle scraper
-source("./scripts/00_subtitle_scraper.R")
-
-### Wikipedia scraper for plots
-source("./scripts/00_wiki_plot_scraper.R")
 
 # initialize an empty dataframe to record the request status
 subtitle_log <- data.frame(
@@ -91,6 +93,35 @@ write_csv(bolly_descriptions_100, "./data/raw/plot/bolly_descriptions_100.csv")
 #########################################################################################################
 #Section III: obtain movies posters from Wikipedia
 #########################################################################################################
+bolly_posters_100 <- read_csv("./data/clean/bolly_sample_100.csv") %>% select(imdb_id, wiki_link)
+
+dir.create("data/raw/posters", recursive = TRUE, showWarnings = FALSE)
+
+bolly_posters_100$posters <- map_chr(bolly_posters_100$imdb_id, ~ get_poster_from_imdb(.x, tmdb_api_key))
+
+
+# calculate the success rate
+pct_plot <- 100*sum(!is.na(bolly_posters_100$posters))/nrow(bolly_posters_100)
+cat("The success rate is:\n", pct_plot, "%\n")
+
+
+# though this is on higher side, this can still be improved.
+# other sources could be `wikipedia`.
+
+## its likely that some tmdb page didnt have posters.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
