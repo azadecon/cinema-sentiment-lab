@@ -110,6 +110,11 @@ cat("The success rate is:\n", pct_plot, "%\n")
 
 ## its likely that some tmdb page didnt have posters.
 
+# save the posters link: this allows to link posters to `imdb_id`
+dir.create("data/clean/", recursive = TRUE, showWarnings = FALSE)
+write_csv(bolly_posters_100, "./data/clean/bolly_posters_100.csv")
+
+
 
 
 
