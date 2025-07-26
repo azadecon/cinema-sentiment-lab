@@ -141,30 +141,6 @@ movies_cleaned <- bolly_dir_collec %>%
   filter(!is.na(collection_dollar))
 
 # Summary by year only
-revenue_summary_by_year <- movies_cleaned %>%
-  group_by(year_of_release) %>%
-  summarise(
-    mean_revenue = mean(collection_dollar),
-    median_revenue = median(collection_dollar),
-    .groups = 'drop'
-  )
-
-print(revenue_summary_by_year)
-
-# Boxplot by year only (year on x-axis)
-p3 <- ggplot(movies_cleaned, aes(x = factor(year), y = box_office_clean)) +
-  geom_boxplot(fill = "skyblue") +
-  theme_minimal() +
-  labs(
-    title = "Box Office Revenue by Year",
-    x = "Year",
-    y = "Revenue"
-  )
-
-
-
-library(dplyr)
-library(ggplot2)
 
 # Assuming movies_cleaned already exists with box_office_clean and year_of_release
 
