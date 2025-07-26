@@ -13,6 +13,9 @@ source("./scripts/00_subtitle_scraper.R")
 ### Wikipedia scraper for plots
 source("./scripts/00_wiki_plot_scraper.R")
 
+### poster scraper [from tmdb]
+source("./scripts/00_poster_scraper.R")
+
 
 #########################################################################################################
 #Section I: obtain movies subtitles file (.srt)
