@@ -2,11 +2,25 @@
 A sentiment analysis of Bollywood films to explore political and cultural themes like Hindu-Muslim relations, gender dynamics, and nationalism using AI.
 ---
 
-<pre>
- ``` 
- Directory structure . ├── data/ │ ├── clean/ # Cleaned and sampled datasets │ │ ├── bolly_sample_100.csv │ │ ├── bolly_dir_collec.csv │ │ ├── bolly_descriptions_100.csv │ │ └── bolly_posters_100.csv │ ├── raw/ │ │ ├── metadata/ # Raw scraped metadata │ │ ├── movie_data/ # Original Kaggle dataset │ │ ├── plot/ # Movie descriptions │ │ ├── posters/ # Poster images │ │ └── subtitles/ # Subtitle files ├── scripts/ │ ├── 00_collection_scraper.R # Scrapes box office data │ ├── 00_director_scraper.R # Scrapes director names │ ├── 00_poster_scraper.R # Downloads posters │ ├── 00_subtitle_scraper.R # Downloads subtitles │ ├── 00_wiki_plot_scraper.R # Scrapes plots from Wikipedia │ ├── 01_data_sampling_and_setup.R # Kaggle data + sampling │ ├── 02_fetch_movie_assets.R # Gets subtitles, plots, posters │ └── 03_analyse_movie_metadata.R # Metadata analysis and plots ├── output/ # Generated plots ├── cinema-sentiment-lab.Rproj # RStudio project file ├── README.md # This file └── supplementary_ideas.md # Extra ideas 
- ``` 
-</pre>
+
+├───data
+│   ├───build
+│   ├───clean
+│   └───raw
+│       ├───metadata
+│       ├───movie_data
+│       │   ├───1950-1989
+│       │   ├───1950-2019
+│       │   ├───1990-2009
+│       │   ├───2010-2019
+│       │   └───collaborative
+│       ├───plot
+│       ├───posters
+│       └───subtitles
+│           ├───all_srts
+│           └───zips
+├───output
+└───scripts
 
 # Directory structure
 .
