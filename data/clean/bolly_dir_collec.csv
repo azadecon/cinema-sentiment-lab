@@ -1,0 +1,101 @@
+imdb_id,director,collection_dollar,gender,probability
+tt2806788,mrighdeep lamba,180331,male,0.98
+tt1949548,madhur bhandarkar,8036853,male,0.98
+tt5882970,kabir khan,4650456,male,1.00
+tt6108090,advait chandan,130765691,Male,0.98
+tt3666258,manu warrier,NA,Male,0.70
+tt1947973,chandrakant singh,442971,male,0.999
+tt1954598,maneesh sharma,328870,male,0.99
+tt7471004,milind rau,7699,male,0.99
+tt5690142,ravi udyawar,20642399,male,0.99
+tt3142232,sabbir khan,90785,male,0.99
+tt1877691,sahil sangha,NA,Male,0.99
+tt2691010,hemant madhukar,NA,male,0.995
+tt3524410,janaki vishwanathan,NA,Female,0.98
+tt2246724,raj kumar gupta,6571685,Male,0.999
+tt5325684,vishal pandya,78134,male,0.99
+tt10324144,anubhav sinha,734514,male,0.99
+tt6296236,amit roy,7674,male,0.995
+tt5021968,sharique minhaj,NA,male,0.99
+tt2346744,akashaditya lama,NA,Male,0.99
+tt2302416,dipesh jain,NA,male,0.995
+tt4651394,binod pradhan,NA,male,0.99
+tt4384270,sunil prem vyas,NA,Male,0.99
+tt5717110,md. shahnause,650387,male,0.99
+tt5997928,shubhashish bhutiani,81540,Male,0.99
+tt5460276,sanjay gupta,21893244,male,0.99
+tt4642936,param gill,NA,Male,0.95
+tt6752836,gulbahar singh,NA,male,0.95
+tt3814100,saahil prem,NA,male,0.99
+tt3495030,sharat katariya,4219952,male,0.99
+tt1980970,rakesh ranjan kumar,NA,male,0.999
+tt2104937,tanveer khan,NA,male,0.98
+tt3309844,amit singh,NA,Male,0.99
+tt1706317,priyadarshan,4305016,male,0.99
+tt5933706,rajiv s. ruia,NA,male,0.99
+tt7695014,tigmanshu dhulia,1401894,Male,0.99
+tt2929690,shonali bose,NA,Female,1.0
+tt2609218,bhushan patel,6534865,Male,0.99
+tt5943306,sohail khan,28940,Male,0.99
+tt9248972,jagan shakti,5667057,Male,0.99
+tt2243336,manish manikpuri,NA,male,0.99
+tt2963974,agneya singh,NA,Male,0.98
+tt3398052,habib faisal,231688,male,0.995
+tt6926486,ashim ahluwalia,8808,male,0.995
+tt2976176,nagesh kukunoor,24539,Male,0.995
+tt8291224,aditya dhar,39346577,male,0.99
+tt2362778,tigmanshu dhulia,NA,Male,1.0
+tt7617988,onir,NA,male,0.99
+tt5156746,abhinay deo,5522478,Male,0.99
+tt2998196,aman sachdeva,NA,male,0.99
+tt2122340,rajesh mapuskar,689861,male,0.99
+tt2171454,anand kumar,NA,male,0.999
+tt2063745,vijay raaz,NA,Male,1.0
+tt2402131,sanjay m. khanduri,NA,male,0.999
+tt5743888,deepak s. shivdasani,NA,male,0.99
+tt4535650,rohit shetty,31994323,male,0.99
+tt4900716,shakun batra,17412627,Male,1.0
+tt2912578,sohail tatari,112110,Male,0.99
+tt2338151,rajkumar hirani,100370104,male,1.00
+tt8504014,raj mehta,13058135,male,0.99
+tt5240748,qaushiq mukherjee,NA,male,0.99
+tt4760900,biswajeet bora,NA,male,0.99
+tt2438764,vishwas patil,NA,Male,0.99
+tt3447364,dibakar banerjee,4552665,male,0.99
+tt6352548,shreyas talpade,2557576,Male,0.995
+tt6080746,tigmanshu dhulia,181430,male,0.99
+tt5632164,ram gopal varma,1234745,male,1.0
+tt3859980,ashutosh gowariker,1630231,Male,0.99
+tt2357926,prabhu deva,80108,male,1.0
+tt7485048,vikas bahl,24701637,male,1.0
+tt4635372,neeraj ghaywan,651748,male,0.99
+tt2759338,manish vatssalya,35464,male,0.99
+tt2208248,debaloy dey,NA,male,0.99
+tt1841542,vikas bahl,832150,male,0.999
+tt5313980,abhishek sharma,9995,male,0.99
+tt9319812,abhishek dixit,NA,male,0.99
+tt4434004,abhishek chaubey,359891,male,0.999
+tt6405126,hansal mehta,2740865,male,0.99
+tt4271730,bhushan patel,NA,male,0.99
+tt1821480,sujoy ghosh,459234,male,1.0
+tt4088588,nagesh kukunoor,NA,male,0.99
+tt4994210,vijay pal,NA,Male,0.99
+tt1395025,sriram raghavan,9520886,male,0.99
+tt6143422,nila madhab panda,NA,Male,0.98
+tt6041458,a.l. vijay,902643,male,0.99
+tt6467738,aparnaa singh,NA,female,0.99
+tt3036740,sajid khan,12278365,male,0.99
+tt2016894,kabir khan,5543117,male,1.00
+tt8130968,sujoy ghosh,18502646,male,1.0
+tt1954206,milan luthria,341767,male,0.99
+tt2350496,ritesh batra,11621785,male,1.0
+tt3590416,manoj shidheshwari tiwari,17410,male,0.99
+tt5638474,vishal pandya,1855282,male,0.99
+tt7549484,rajiv dhingra,1955266,Male,0.99
+tt2190820,manish srivastav,NA,Male,0.999
+tt1867070,mrighdeep lamba,NA,Male,0.99
+tt4857886,deepak tijori,NA,male,1.0
+tt2072227,dibakar banerjee,NA,male,0.99
+tt2615584,rajkumar santoshi,669070,Male,0.999
+tt4007558,vikas bahl,14120808,male,0.99
+tt6078866,ivan ayr,NA,male,0.99
