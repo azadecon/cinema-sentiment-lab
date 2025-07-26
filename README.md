@@ -3,27 +3,9 @@ A sentiment analysis of Bollywood films to explore political and cultural themes
 ---
 
 
-├───data
-│   ├───build
-│   ├───clean
-│   └───raw
-│       ├───metadata
-│       ├───movie_data
-│       │   ├───1950-1989
-│       │   ├───1950-2019
-│       │   ├───1990-2009
-│       │   ├───2010-2019
-│       │   └───collaborative
-│       ├───plot
-│       ├───posters
-│       └───subtitles
-│           ├───all_srts
-│           └───zips
-├───output
-└───scripts
 
 # Directory structure
-.
+```{bash}
 ├── data/
 │   ├── clean/                  # Cleaned and sampled datasets
 │   │   ├── bolly_sample_100.csv
@@ -49,7 +31,7 @@ A sentiment analysis of Bollywood films to explore political and cultural themes
 ├── cinema-sentiment-lab.Rproj  # RStudio project file
 ├── README.md                   # This file
 └── supplementary_ideas.md      # Document proposing additional attributes
-
+```
 
 
 # Movie Metadata Collection and Analysis
