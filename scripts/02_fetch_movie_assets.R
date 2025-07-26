@@ -93,7 +93,7 @@ write_csv(bolly_descriptions_100, "./data/raw/plot/bolly_descriptions_100.csv")
 #########################################################################################################
 #Section III: obtain movies posters from Wikipedia
 #########################################################################################################
-bolly_posters_100 <- read_csv("./data/clean/bolly_sample_100.csv") %>% select(imdb_id, wiki_link)
+bolly_posters_100 <- read_csv("./data/clean/bolly_sample_100.csv") %>% select(imdb_id)
 
 dir.create("data/raw/posters", recursive = TRUE, showWarnings = FALSE)
 
@@ -111,8 +111,23 @@ cat("The success rate is:\n", pct_plot, "%\n")
 ## its likely that some tmdb page didnt have posters.
 
 # save the posters link: this allows to link posters to `imdb_id`
+
+
+# Get list of poster paths
+bolly_posters_paths <- list.files("./data/raw/posters/", full.names = TRUE)
+
+# Convert to data frame and rename the column
+bolly_posters_paths <- data.frame(poster_path = bolly_posters_paths, stringsAsFactors = FALSE)
+
+# Add an empty imdb_id column
+bolly_posters_paths$imdb_id <- NA
+
+# extract `imdb_id`
+bolly_posters_paths <- bolly_srt %>% 
+  mutate(imdb_id = str_extract(bolly_posters_paths, "tt\\d+"))
+
 dir.create("data/clean/", recursive = TRUE, showWarnings = FALSE)
-write_csv(bolly_posters_100, "./data/clean/bolly_posters_100.csv")
+write_csv(bolly_posters_paths, "./data/clean/bolly_posters_100.csv")
 
 
 
