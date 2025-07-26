@@ -21,7 +21,7 @@ bolly_plots <- bolly_sample %>% left_join(bolly_desc, by = "imdb_id")
 
 # str_length 
 bolly_plots <- bolly_plots %>% 
-  mutate(str_length = str_length(plot))
+  mutate(plot_length = str_length(plot))
 
 
 ##########################
@@ -50,15 +50,51 @@ bolly_srt <- bolly_srt %>% group_by(imdb_id) %>%
   mutate(n = n()) %>% filter(n == 1) %>% select(-n)
 cat("The number of srt without duplicates is:\n", dim(srt_address)[1], "\n")
 
-############################
-## Step II: Prepare build ##
-############################
+
+# define a function to load and clean srt files
+
+clean_subtitles <- function(file_path) {
+  # Read raw lines with fallback encoding
+  subtitle_text <- readLines(file_path, encoding = "UTF-8", warn = FALSE)
+  
+  # Coerce each line to valid UTF-8, replacing invalid bytes with empty string
+  subtitle_text <- iconv(subtitle_text, from = "UTF-8", to = "UTF-8", sub = "")
+  
+  # Remove line numbers
+  cleaned_lines <- subtitle_text[!grepl("^\\d+$", subtitle_text)]
+  
+  # Remove timestamps
+  cleaned_lines <- cleaned_lines[!grepl("\\d{2}:\\d{2}:\\d{2},\\d{3}", cleaned_lines)]
+  
+  # Remove empty lines
+  cleaned_lines <- cleaned_lines[nzchar(cleaned_lines)]
+  
+  # Remove watermark lines
+  cleaned_lines <- cleaned_lines[!grepl("YTS|Downloaded from", cleaned_lines, ignore.case = TRUE)]
+  
+  # Combine into one string
+  dialogue <- paste(cleaned_lines, collapse = "\n")
+  
+  # Final safeguard: remove any remaining encoding issues
+  dialogue <- iconv(dialogue, from = "UTF-8", to = "UTF-8", sub = "")
+  
+  return(dialogue)
+}
+
+
+
+bolly_srt <- bolly_srt %>% mutate(dialogues = clean_subtitles(srt_path),
+                                  dialogues_length = str_length(dialogues))
+#############################
+## Step III: Prepare build ##
+#############################
 
 # merge `bolly_srt` with `bolly_plots` to create `boolly_themes` build. 
 bolly_themes <- bolly_plots %>% left_join(bolly_srt, by = "imdb_id")
 
 # we observe that some movies do not have srt, some do not have plot, and some do not have both.
 #We keep all of them to be analsed differently.
+
 
 dir.create("data/build", recursive = TRUE, showWarnings = FALSE)
 
