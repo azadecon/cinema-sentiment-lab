@@ -84,7 +84,11 @@ clean_subtitles <- function(file_path) {
 
 
 bolly_srt <- bolly_srt %>% mutate(dialogues = clean_subtitles(srt_path),
+                                  dialogues = gsub("</?font[^>]*>", "", dialogues),
                                   dialogues_length = str_length(dialogues))
+
+
+
 #############################
 ## Step III: Prepare build ##
 #############################
