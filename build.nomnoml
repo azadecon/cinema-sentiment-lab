@@ -1,0 +1,50 @@
+#zoom: 1.5
+#direction: down
+
+[<start> Start ] -> [<frame> scripts/01_data_sampling_and_setup.R | Sample 100 Bollywood Movies ]
+[<frame> scripts/01_data_sampling_and_setup.R ] -> [ data/clean/bolly_sample_100.csv ]
+
+[ data/clean/bolly_sample_100.csv ] -> [<frame> scripts/03_fetch_movie_metadata.R | Scrape Director & Box Office ]
+[<frame> scripts/03_fetch_movie_metadata.R ] -> [<frame> scripts/00_director_scraper.R | Get Director Name (IMDb) ]
+[<frame> scripts/03_fetch_movie_metadata.R ] -> [<frame> scripts/00_collection_scraper.R | Get Box Office (Box Office Mojo) ]
+
+[<frame> scripts/00_director_scraper.R ] -> [ data/raw/metadata/bolly_direc.csv ]
+[<frame> scripts/00_collection_scraper.R ] -> [ data/raw/metadata/bolly_collection.csv ]
+
+[ data/raw/metadata/bolly_direc.csv ] -> [<frame> scripts/03_analyse_movie_metadata.R | Analyze Metadata ]
+[ data/raw/metadata/bolly_collection.csv ] -> [<frame> scripts/03_analyse_movie_metadata.R ]
+
+[<frame> scripts/03_analyse_movie_metadata.R ] -> [ data/clean/bolly_dir_collec.csv | Director Gender & Collection ]
+[<frame> scripts/03_analyse_movie_metadata.R ] -> [ output/gender_summary_movies.png | Director Gender Distribution Plot ]
+[<frame> scripts/03_analyse_movie_metadata.R ] -> [ output/gender_summary_collection.png | Box Office by Director Gender Plot ]
+[<frame> scripts/03_analyse_movie_metadata.R ] -> [ output/year_summary_collection.png | Box Office by Year Plot ]
+
+
+[ data/clean/bolly_sample_100.csv ] -> [<frame> scripts/02_fetch_movie_assets.R | Scrape Subtitles, Plots, Posters ]
+
+[<frame> scripts/02_fetch_movie_assets.R ] -> [<frame> scripts/00_subtitle_scraper.R | Get Subtitles (Subdl.com) ]
+[<frame> scripts/00_subtitle_scraper.R ] -> [ data/raw/subtitles/zips/ ]
+[<frame> scripts/00_subtitle_scraper.R ] -> [ data/raw/subtitles/all_srts/ ]
+
+[<frame> scripts/02_fetch_movie_assets.R ] -> [<frame> scripts/00_wiki_plot_scraper.R | Get Plot (Wikipedia) ]
+[<frame> scripts/00_wiki_plot_scraper.R ] -> [ data/raw/plot/bolly_descriptions_100.csv ]
+
+[<frame> scripts/02_fetch_movie_assets.R ] -> [<frame> scripts/00_poster_scraper.R | Get Posters (TMDB) ]
+[<frame> scripts/00_poster_scraper.R ] -> [ data/raw/posters/ ]
+[<frame> scripts/00_poster_scraper.R ] -> [ data/clean/bolly_posters_100.csv ]
+
+
+'Movie attributes: a thematic analysis pipeline'
+[ data/raw/plot/bolly_descriptions_100.csv ] -> [<frame> scripts/04_thematic_analysis.R | Thematic Analysis (LLM) ]
+[ data/raw/subtitles/all_srts/ ] -> [<frame> scripts/04_thematic_analysis.R ]
+
+[<frame> scripts/04_thematic_analysis.R ] -> [ data/build/bolly_themes.csv | Thematic Coded Data ]
+
+[ data/build/bolly_themes.csv ] -> [ Theme Presence (Hindu-Muslim, Gender, Nationalism) ]
+[ Theme Presence (Hindu-Muslim, Gender, Nationalism) ] -> [<tool> Google Gemini API ]
+
+[ data/build/bolly_themes.csv ] -> [ Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md) ]
+[ Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md) ] -> [<tool> OpenAI / Hugging Face Models ]
+
+
+[<end> End ]
