@@ -2,6 +2,36 @@
 A sentiment analysis of Bollywood films to explore political and cultural themes like Hindu-Muslim relations, gender dynamics, and nationalism using AI.
 ---
 
+# Directory structure
+.
+├── data/
+│   ├── clean/                  # Cleaned and sampled datasets
+│   │   ├── bolly_sample_100.csv
+│   │   ├── bolly_dir_collec.csv
+│   │   ├── bolly_descriptions_100.csv
+│   │   └── bolly_posters_100.csv
+│   ├── raw/
+│   │   ├── metadata/           # Raw scraped metadata (director names, box office)
+│   │   ├── movie_data/         # Original Kaggle dataset files
+│   │   ├── plot/               # Raw movie descriptions/plots
+│   │   ├── posters/            # Raw movie poster images
+│   │   └── subtitles/          # Raw subtitle files (zips and extracted .srt)
+├── scripts/
+│   ├── 00_collection_scraper.R # Scrapes box office data from Box Office Mojo
+│   ├── 00_director_scraper.R   # Scrapes director names from Box Office Mojo
+│   ├── 00_poster_scraper.R     # Downloads movie posters via TMDb API
+│   ├── 00_subtitle_scraper.R   # Downloads English subtitles via SubDL API
+│   ├── 00_wiki_plot_scraper.R  # Scrapes movie plots from Wikipedia
+│   ├── 01_data_sampling_and_setup.R # Downloads Kaggle data, samples movies
+│   ├── 02_fetch_movie_assets.R # Orchestrates collection of subtitles, plots, posters
+│   └── 03_analyse_movie_metadata.R # Analyzes director gender and box office, generates plots
+├── output/                     # Generated plots
+├── cinema-sentiment-lab.Rproj  # RStudio project file
+├── README.md                   # This file
+└── supplementary_ideas.md      # Document proposing additional attributes
+
+
+
 # Movie Metadata Collection and Analysis
 
 ## Overview
