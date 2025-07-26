@@ -37,6 +37,7 @@ A sentiment analysis of Bollywood films to explore political and cultural themes
 ```
 
 # Dependency and outputs
+<img width="1982" height="750" alt="build" src="https://github.com/azadecon/cinema-sentiment-lab/blob/main/build.png" />
 
 
 # Movie Metadata Collection and Analysis
