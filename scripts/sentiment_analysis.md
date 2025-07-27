@@ -5,11 +5,11 @@ I would however like to point out my technical skills as demonstrated in `API di
 > To analyze sentiment across the entire movie subtitle file in manageable segments.
 
 ## Strategy:
-> Chunking the Subtitles: LLM tools have context window limit and their analysis gets lets precise with size. Since the full subtitle text is too large to analyze at once, it will be split into smaller, manageable chunks (e.g., by number of lines or timestamps).
+> Chunking the Subtitles: LLM tools have context window limit and their analysis gets less precise with size. Since the full subtitle text is too large to analyze at once, it will be split into smaller, manageable chunks (e.g., by number of lines or timestamps).
 
 
 ## Using the Plot as a Sentiment Guide
-> We use the movie plot as a reference to determine expected emotional themes (e.g., joy, fear, anger). This will anchor the LLM. 
+> We use the movie plot as a reference to determine expected themes. This will anchor the LLM. 
 For each chunk, assess whether the sentiment aligns with those found in the plot. This allows thematic alignment rather than generic sentiment scoring.
 
 ## Aggregation Method
