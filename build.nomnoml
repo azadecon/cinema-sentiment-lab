@@ -19,6 +19,10 @@
 [<frame> scripts/03_analyse_movie_metadata.R ] -> [ output/gender_summary_collection.png | Box Office by Director Gender Plot ]
 [<frame> scripts/03_analyse_movie_metadata.R ] -> [ output/year_summary_collection.png | Box Office by Year Plot ]
 
+[ data/clean/bolly_dir_collec.csv ] -> [<frame> scripts/03_analyse_movie_metadata.R | Further Analysis & Merge ]
+[ data/clean/bolly_sample_100.csv ] -> [<frame> scripts/03_analyse_movie_metadata.R ]
+[<frame> scripts/03_analyse_movie_metadata.R ] -> [ data/clean/bolly_revised.csv | Merged Movie Data ]
+
 
 [ data/clean/bolly_sample_100.csv ] -> [<frame> scripts/02_fetch_movie_assets.R | Scrape Subtitles, Plots, Posters ]
 
@@ -33,8 +37,7 @@
 [<frame> scripts/00_poster_scraper.R ] -> [ data/raw/posters/ ]
 [<frame> scripts/00_poster_scraper.R ] -> [ data/clean/bolly_posters_100.csv ]
 
-
-'Movie attributes: a thematic analysis pipeline'
+'From the analysis of raw plots and subtitles, a new stage of analysis emerges:'
 [ data/raw/plot/bolly_descriptions_100.csv ] -> [<frame> scripts/04_thematic_analysis.R | Thematic Analysis (LLM) ]
 [ data/raw/subtitles/all_srts/ ] -> [<frame> scripts/04_thematic_analysis.R ]
 
@@ -45,6 +48,5 @@
 
 [ data/build/bolly_themes.csv ] -> [ Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md) ]
 [ Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md) ] -> [<tool> OpenAI / Hugging Face Models ]
-
 
 [<end> End ]
