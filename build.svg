@@ -1,0 +1,561 @@
+<svg version="1.1" baseProfile="full" width="2449.5" height="918.0" viewBox="0 0 2449.5 918" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+	<desc >#zoom: 1.5
+	#direction: down
+	
+	[&lt;start&gt; Start ] -&gt; [&lt;frame&gt; scripts/01_data_sampling_and_setup.R | Sample 100 Bollywood Movies ]
+	[&lt;frame&gt; scripts/01_data_sampling_and_setup.R ] -&gt; [ data/clean/bolly_sample_100.csv ]
+	
+	[ data/clean/bolly_sample_100.csv ] -&gt; [&lt;frame&gt; scripts/03_fetch_movie_metadata.R | Scrape Director &amp; Box Office ]
+	[&lt;frame&gt; scripts/03_fetch_movie_metadata.R ] -&gt; [&lt;frame&gt; scripts/00_director_scraper.R | Get Director Name (IMDb) ]
+	[&lt;frame&gt; scripts/03_fetch_movie_metadata.R ] -&gt; [&lt;frame&gt; scripts/00_collection_scraper.R | Get Box Office (Box Office Mojo) ]
+	
+	[&lt;frame&gt; scripts/00_director_scraper.R ] -&gt; [ data/raw/metadata/bolly_direc.csv ]
+	[&lt;frame&gt; scripts/00_collection_scraper.R ] -&gt; [ data/raw/metadata/bolly_collection.csv ]
+	
+	[ data/raw/metadata/bolly_direc.csv ] -&gt; [&lt;frame&gt; scripts/03_analyse_movie_metadata.R | Analyze Metadata ]
+	[ data/raw/metadata/bolly_collection.csv ] -&gt; [&lt;frame&gt; scripts/03_analyse_movie_metadata.R ]
+	
+	[&lt;frame&gt; scripts/03_analyse_movie_metadata.R ] -&gt; [ data/clean/bolly_dir_collec.csv | Director Gender &amp; Collection ]
+	[&lt;frame&gt; scripts/03_analyse_movie_metadata.R ] -&gt; [ output/gender_summary_movies.png | Director Gender Distribution Plot ]
+	[&lt;frame&gt; scripts/03_analyse_movie_metadata.R ] -&gt; [ output/gender_summary_collection.png | Box Office by Director Gender Plot ]
+	[&lt;frame&gt; scripts/03_analyse_movie_metadata.R ] -&gt; [ output/year_summary_collection.png | Box Office by Year Plot ]
+	
+	[ data/clean/bolly_dir_collec.csv ] -&gt; [&lt;frame&gt; scripts/03_analyse_movie_metadata.R | Further Analysis &amp; Merge ]
+	[ data/clean/bolly_sample_100.csv ] -&gt; [&lt;frame&gt; scripts/03_analyse_movie_metadata.R ]
+	[&lt;frame&gt; scripts/03_analyse_movie_metadata.R ] -&gt; [ data/clean/bolly_revised.csv | Merged Movie Data ]
+	
+	
+	[ data/clean/bolly_sample_100.csv ] -&gt; [&lt;frame&gt; scripts/02_fetch_movie_assets.R | Scrape Subtitles, Plots, Posters ]
+	
+	[&lt;frame&gt; scripts/02_fetch_movie_assets.R ] -&gt; [&lt;frame&gt; scripts/00_subtitle_scraper.R | Get Subtitles (Subdl.com) ]
+	[&lt;frame&gt; scripts/00_subtitle_scraper.R ] -&gt; [ data/raw/subtitles/zips/ ]
+	[&lt;frame&gt; scripts/00_subtitle_scraper.R ] -&gt; [ data/raw/subtitles/all_srts/ ]
+	
+	[&lt;frame&gt; scripts/02_fetch_movie_assets.R ] -&gt; [&lt;frame&gt; scripts/00_wiki_plot_scraper.R | Get Plot (Wikipedia) ]
+	[&lt;frame&gt; scripts/00_wiki_plot_scraper.R ] -&gt; [ data/raw/plot/bolly_descriptions_100.csv ]
+	
+	[&lt;frame&gt; scripts/02_fetch_movie_assets.R ] -&gt; [&lt;frame&gt; scripts/00_poster_scraper.R | Get Posters (TMDB) ]
+	[&lt;frame&gt; scripts/00_poster_scraper.R ] -&gt; [ data/raw/posters/ ]
+	[&lt;frame&gt; scripts/00_poster_scraper.R ] -&gt; [ data/clean/bolly_posters_100.csv ]
+	
+	&apos;Movie attributes: a thematic analysis pipeline:&apos;
+	[ data/raw/plot/bolly_descriptions_100.csv ] -&gt; [&lt;frame&gt; scripts/04_thematic_analysis.R | Thematic Analysis (LLM) ]
+	[ data/raw/subtitles/all_srts/ ] -&gt; [&lt;frame&gt; scripts/04_thematic_analysis.R ]
+	
+	[&lt;frame&gt; scripts/04_thematic_analysis.R ] -&gt; [ data/build/bolly_themes.csv | Thematic Coded Data ]
+	
+	[ data/build/bolly_themes.csv ] -&gt; [ Theme Presence (Hindu-Muslim, Gender, Nationalism) ]
+	[ Theme Presence (Hindu-Muslim, Gender, Nationalism) ] -&gt; [&lt;tool&gt; Google Gemini API ]
+	
+	[ data/build/bolly_themes.csv ] -&gt; [ Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md) ]
+	[ Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md) ] -&gt; [&lt;tool&gt; OpenAI / Hugging Face Models ]
+	
+	[&lt;end&gt; End ]</desc>
+	<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+		<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+			<g stroke="transparent" fill="transparent">
+				<rect x="0.0" y="0.0" height="918.0" width="2449.5" stroke="none"></rect>
+			</g>
+			<g transform="translate(8, 8)" fill="#33322E" text-align="left">
+				<text x="0.0" y="14.1" stroke="none">&apos;Movie attributes: a thematic analysis pipeline:&apos;</text>
+				<g transform="translate(20, 20)" fill="#33322E" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+					<path d="M715.0 30.0 L715 50 L715 63.333333333333336 L715.0 63.3 " fill="none"></path>
+					<path d="M709.7 56.7 L715.0 63.3 L720.3 56.7 L715.0 70.0 Z"></path>
+					<path d="M715.0 134.0 L715 154 L715 167.33333333333334 L715.0 167.3 " fill="none"></path>
+					<path d="M709.7 160.7 L715.0 167.3 L720.3 160.7 L715.0 174.0 Z"></path>
+					<path d="M715.0 206.0 L715 226 L715 239.33333333333334 L715.0 239.3 " fill="none"></path>
+					<path d="M709.7 232.7 L715.0 239.3 L720.3 232.7 L715.0 246.0 Z"></path>
+					<path d="M867.0 291.3 L1311 330 L1311 343.3333333333333 L1311.0 343.3 " fill="none"></path>
+					<path d="M1305.7 336.7 L1311.0 343.3 L1316.3 336.7 L1311.0 350.0 Z"></path>
+					<path d="M563.0 295.3 L257.75 330 L257.75 343.3333333333333 L257.8 343.3 " fill="none"></path>
+					<path d="M252.4 336.7 L257.8 343.3 L263.1 336.7 L257.8 350.0 Z"></path>
+					<path d="M1189.5 414.0 L1113.5 434 L1113.5 447.3333333333333 L1113.5 447.3 " fill="none"></path>
+					<path d="M1108.2 440.7 L1113.5 447.3 L1118.8 440.7 L1113.5 454.0 Z"></path>
+					<path d="M257.8 414.0 L257.75 434 L257.75 447.3333333333333 L257.8 447.3 " fill="none"></path>
+					<path d="M252.4 440.7 L257.8 447.3 L263.1 440.7 L257.8 454.0 Z"></path>
+					<path d="M1113.5 486.0 L1113.5 506 L486.902477922992 546.9463665070745 L486.9 546.9 " fill="none"></path>
+					<path d="M493.2 541.2 L486.9 546.9 L493.9 551.8 L480.3 547.4 Z"></path>
+					<path d="M257.8 486.0 L257.75 506 L275.7889958583243 521.6337964105477 L275.8 521.6 " fill="none"></path>
+					<path d="M267.3 521.3 L275.8 521.6 L274.2 513.2 L280.8 526.0 Z"></path>
+					<path d="M284.4 590.0 L263.5 610 L216.66154798923827 627.6492717721711 L216.7 627.6 " fill="none"></path>
+					<path d="M221.0 620.3 L216.7 627.6 L224.8 630.3 L210.4 630.0 Z"></path>
+					<path d="M393.9 590.0 L441.5 610 L441.5 623.3333333333334 L441.5 623.3 " fill="none"></path>
+					<path d="M436.2 616.7 L441.5 623.3 L446.8 616.7 L441.5 630.0 Z"></path>
+					<path d="M480.3 575.8 L792.5 610 L792.5 623.3333333333334 L792.5 623.3 " fill="none"></path>
+					<path d="M787.2 616.7 L792.5 623.3 L797.8 616.7 L792.5 630.0 Z"></path>
+					<path d="M480.3 568.2 L1143.5 610 L1143.5 623.3333333333334 L1143.5 623.3 " fill="none"></path>
+					<path d="M1138.2 616.7 L1143.5 623.3 L1148.8 616.7 L1143.5 630.0 Z"></path>
+					<path d="M113.2 630.0 L105.5 610 L180.6594438461267 591.5863788928217 L180.7 591.6 " fill="none"></path>
+					<path d="M175.5 598.4 L180.7 591.6 L172.9 588.0 L187.1 590.0 Z"></path>
+					<path d="M581.5 197.4 L61.75 226 L61.75 278 L61.75 278 L61.75 330 L61.75 330 L61.75 382 L61.75 382 L61.75 434 L61.75 434 L61.75 470 L61.75 470 L61.75 506 L61.75 506 L153.67828966432475 524.672933838066 L153.7 524.7 " fill="none"></path>
+					<path d="M146.1 528.6 L153.7 524.7 L148.2 518.1 L160.2 526.0 Z"></path>
+					<path d="M480.3 565.5 L1450 610 L1450 623.3333333333334 L1450.0 623.3 " fill="none"></path>
+					<path d="M1444.7 616.7 L1450.0 623.3 L1455.3 616.7 L1450.0 630.0 Z"></path>
+					<path d="M848.5 194.7 L1745.75 226 L1745.75 239.33333333333334 L1745.8 239.3 " fill="none"></path>
+					<path d="M1740.4 232.7 L1745.8 239.3 L1751.1 232.7 L1745.8 246.0 Z"></path>
+					<path d="M1603.8 288.1 L1015.5 330 L1015.5 343.3333333333333 L1015.5 343.3 " fill="none"></path>
+					<path d="M1010.2 336.7 L1015.5 343.3 L1020.8 336.7 L1015.5 350.0 Z"></path>
+					<path d="M894.0 414.0 L818 434 L818 447.3333333333333 L818.0 447.3 " fill="none"></path>
+					<path d="M812.7 440.7 L818.0 447.3 L823.3 440.7 L818.0 454.0 Z"></path>
+					<path d="M1142.5 399.2 L1399.5 434 L1399.5 447.3333333333333 L1399.5 447.3 " fill="none"></path>
+					<path d="M1394.2 440.7 L1399.5 447.3 L1404.8 440.7 L1399.5 454.0 Z"></path>
+					<path d="M1887.8 294.0 L2208 330 L2208 343.3333333333333 L2208.0 343.3 " fill="none"></path>
+					<path d="M2202.7 336.7 L2208.0 343.3 L2213.3 336.7 L2208.0 350.0 Z"></path>
+					<path d="M2208.0 414.0 L2208 434 L2208 447.3333333333333 L2208.0 447.3 " fill="none"></path>
+					<path d="M2202.7 440.7 L2208.0 447.3 L2213.3 440.7 L2208.0 454.0 Z"></path>
+					<path d="M1745.8 310.0 L1745.75 330 L1745.75 343.3333333333333 L1745.8 343.3 " fill="none"></path>
+					<path d="M1740.4 336.7 L1745.8 343.3 L1751.1 336.7 L1745.8 350.0 Z"></path>
+					<path d="M1669.3 414.0 L1621.5 434 L1621.5 447.3333333333333 L1621.5 447.3 " fill="none"></path>
+					<path d="M1616.2 440.7 L1621.5 447.3 L1626.8 440.7 L1621.5 454.0 Z"></path>
+					<path d="M1822.2 414.0 L1870 434 L1870 447.3333333333333 L1870.0 447.3 " fill="none"></path>
+					<path d="M1864.7 440.7 L1870.0 447.3 L1875.3 440.7 L1870.0 454.0 Z"></path>
+					<path d="M2208.0 486.0 L2208 506 L2007.8405891705333 536.5004816502045 L2007.8 536.5 " fill="none"></path>
+					<path d="M2013.6 530.2 L2007.8 536.5 L2015.2 540.8 L2001.3 537.5 Z"></path>
+					<path d="M1399.5 486.0 L1399.5 506 L1725.62423823652 542.2941902371301 L1725.6 542.3 " fill="none"></path>
+					<path d="M1718.4 546.9 L1725.6 542.3 L1719.6 536.3 L1732.3 543.0 Z"></path>
+					<path d="M1866.8 590.0 L1866.75 610 L1866.75 623.3333333333334 L1866.8 623.3 " fill="none"></path>
+					<path d="M1861.4 616.7 L1866.8 623.3 L1872.1 616.7 L1866.8 630.0 Z"></path>
+					<path d="M1752.3 679.3 L1522.5 714 L1522.5 727.3333333333334 L1522.5 727.3 " fill="none"></path>
+					<path d="M1517.2 720.7 L1522.5 727.3 L1527.8 720.7 L1522.5 734.0 Z"></path>
+					<path d="M1522.5 766.0 L1522.5 786 L1522.5 799.3333333333334 L1522.5 799.3 " fill="none"></path>
+					<path d="M1517.2 792.7 L1522.5 799.3 L1527.8 792.7 L1522.5 806.0 Z"></path>
+					<path d="M1981.3 689.3 L2085 714 L2085 727.3333333333334 L2085.0 727.3 " fill="none"></path>
+					<path d="M2079.7 720.7 L2085.0 727.3 L2090.3 720.7 L2085.0 734.0 Z"></path>
+					<path d="M2085.0 766.0 L2085 786 L2085 799.3333333333334 L2085.0 799.3 " fill="none"></path>
+					<path d="M2079.7 792.7 L2085.0 799.3 L2090.3 792.7 L2085.0 806.0 Z"></path>
+					<g data-name="Start">
+						<g fill="#33322E" stroke="#33322E" data-name="Start">
+							<circle r="12.0" cx="715.0" cy="15.0" stroke="none" data-name="Start"></circle>
+						</g>
+					</g>
+					<g data-name="scripts/01_data_sampling_and_setup.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/01_data_sampling_and_setup.R">
+							<rect x="548.5" y="70.0" height="64.0" width="333.0" data-name="scripts/01_data_sampling_and_setup.R"></rect>
+							<path d="M548.5 102.0 L857.5 102.0 L873.5 86.0 L873.5 70.0" fill="none" data-name="scripts/01_data_sampling_and_setup.R"></path>
+						</g>
+						<g transform="translate(548.5, 70)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/01_data_sampling_and_setup.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/01_data_sampling_and_setup.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/01_data_sampling_and_setup.R" data-compartment="0">scripts/01_data_sampling_and_setup.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(548.5, 102)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/01_data_sampling_and_setup.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/01_data_sampling_and_setup.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/01_data_sampling_and_setup.R" data-compartment="1">Sample 100 Bollywood Movies</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/clean/bolly_sample_100.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/clean/bolly_sample_100.csv">
+							<rect x="581.5" y="174.0" height="32.0" width="267.0" data-name="data/clean/bolly_sample_100.csv"></rect>
+						</g>
+						<g transform="translate(581.5, 174)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/clean/bolly_sample_100.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/clean/bolly_sample_100.csv" data-compartment="0">
+								<text x="125.5" y="14.1" stroke="none" text-anchor="middle" data-name="data/clean/bolly_sample_100.csv" data-compartment="0">data/clean/bolly_sample_100.csv</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/03_fetch_movie_metadata.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/03_fetch_movie_metadata.R">
+							<rect x="563.0" y="246.0" height="64.0" width="304.0" data-name="scripts/03_fetch_movie_metadata.R"></rect>
+							<path d="M563.0 278.0 L843.0 278.0 L859.0 262.0 L859.0 246.0" fill="none" data-name="scripts/03_fetch_movie_metadata.R"></path>
+						</g>
+						<g transform="translate(563, 246)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/03_fetch_movie_metadata.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/03_fetch_movie_metadata.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/03_fetch_movie_metadata.R" data-compartment="0">scripts/03_fetch_movie_metadata.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(563, 278)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/03_fetch_movie_metadata.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/03_fetch_movie_metadata.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/03_fetch_movie_metadata.R" data-compartment="1">Scrape Director &amp; Box Office</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/00_director_scraper.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/00_director_scraper.R">
+							<rect x="1182.5" y="350.0" height="64.0" width="257.0" data-name="scripts/00_director_scraper.R"></rect>
+							<path d="M1182.5 382.0 L1415.5 382.0 L1431.5 366.0 L1431.5 350.0" fill="none" data-name="scripts/00_director_scraper.R"></path>
+						</g>
+						<g transform="translate(1182.5, 350)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_director_scraper.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_director_scraper.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_director_scraper.R" data-compartment="0">scripts/00_director_scraper.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(1182.5, 382)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_director_scraper.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_director_scraper.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_director_scraper.R" data-compartment="1">Get Director Name (IMDb)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/00_collection_scraper.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/00_collection_scraper.R">
+							<rect x="121.8" y="350.0" height="64.0" width="272.0" data-name="scripts/00_collection_scraper.R"></rect>
+							<path d="M121.8 382.0 L369.8 382.0 L385.8 366.0 L385.8 350.0" fill="none" data-name="scripts/00_collection_scraper.R"></path>
+						</g>
+						<g transform="translate(121.75, 350)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_collection_scraper.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_collection_scraper.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_collection_scraper.R" data-compartment="0">scripts/00_collection_scraper.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(121.75, 382)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_collection_scraper.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_collection_scraper.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_collection_scraper.R" data-compartment="1">Get Box Office (Box Office Mojo)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/raw/metadata/bolly_direc.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/raw/metadata/bolly_direc.csv">
+							<rect x="975.5" y="454.0" height="32.0" width="276.0" data-name="data/raw/metadata/bolly_direc.csv"></rect>
+						</g>
+						<g transform="translate(975.5, 454)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/raw/metadata/bolly_direc.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/raw/metadata/bolly_direc.csv" data-compartment="0">
+								<text x="130.0" y="14.1" stroke="none" text-anchor="middle" data-name="data/raw/metadata/bolly_direc.csv" data-compartment="0">data/raw/metadata/bolly_direc.csv</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/raw/metadata/bolly_collection.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/raw/metadata/bolly_collection.csv">
+							<rect x="101.8" y="454.0" height="32.0" width="312.0" data-name="data/raw/metadata/bolly_collection.csv"></rect>
+						</g>
+						<g transform="translate(101.75, 454)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/raw/metadata/bolly_collection.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/raw/metadata/bolly_collection.csv" data-compartment="0">
+								<text x="148.0" y="14.1" stroke="none" text-anchor="middle" data-name="data/raw/metadata/bolly_collection.csv" data-compartment="0">data/raw/metadata/bolly_collection.csv</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/03_analyse_movie_metadata.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/03_analyse_movie_metadata.R">
+							<rect x="155.3" y="526.0" height="64.0" width="325.0" data-name="scripts/03_analyse_movie_metadata.R"></rect>
+							<path d="M155.3 558.0 L456.3 558.0 L472.3 542.0 L472.3 526.0" fill="none" data-name="scripts/03_analyse_movie_metadata.R"></path>
+						</g>
+						<g transform="translate(155.25, 526)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/03_analyse_movie_metadata.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/03_analyse_movie_metadata.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/03_analyse_movie_metadata.R" data-compartment="0">scripts/03_analyse_movie_metadata.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(155.25, 558)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/03_analyse_movie_metadata.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/03_analyse_movie_metadata.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/03_analyse_movie_metadata.R" data-compartment="1">Analyze Metadata</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/clean/bolly_dir_collec.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/clean/bolly_dir_collec.csv">
+							<rect x="0.0" y="630.0" height="64.0" width="251.0" data-name="data/clean/bolly_dir_collec.csv"></rect>
+							<path d="M0.0 662.0 L251.0 662.0" fill="none" data-name="data/clean/bolly_dir_collec.csv"></path>
+						</g>
+						<g transform="translate(0, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/clean/bolly_dir_collec.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/clean/bolly_dir_collec.csv" data-compartment="0">
+								<text x="117.5" y="14.1" stroke="none" text-anchor="middle" data-name="data/clean/bolly_dir_collec.csv" data-compartment="0">data/clean/bolly_dir_collec.csv</text>
+								
+							</g>
+						</g>
+						<g transform="translate(0, 662)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="data/clean/bolly_dir_collec.csv" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="data/clean/bolly_dir_collec.csv" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="data/clean/bolly_dir_collec.csv" data-compartment="1">Director Gender &amp; Collection</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="output/gender_summary_movies.png">
+						<g fill="#eee8d5" stroke="#33322E" data-name="output/gender_summary_movies.png">
+							<rect x="291.0" y="630.0" height="64.0" width="301.0" data-name="output/gender_summary_movies.png"></rect>
+							<path d="M291.0 662.0 L592.0 662.0" fill="none" data-name="output/gender_summary_movies.png"></path>
+						</g>
+						<g transform="translate(291, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="output/gender_summary_movies.png" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="output/gender_summary_movies.png" data-compartment="0">
+								<text x="142.5" y="14.1" stroke="none" text-anchor="middle" data-name="output/gender_summary_movies.png" data-compartment="0">output/gender_summary_movies.png</text>
+								
+							</g>
+						</g>
+						<g transform="translate(291, 662)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="output/gender_summary_movies.png" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="output/gender_summary_movies.png" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="output/gender_summary_movies.png" data-compartment="1">Director Gender Distribution Plot</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="output/gender_summary_collection.png">
+						<g fill="#eee8d5" stroke="#33322E" data-name="output/gender_summary_collection.png">
+							<rect x="632.0" y="630.0" height="64.0" width="321.0" data-name="output/gender_summary_collection.png"></rect>
+							<path d="M632.0 662.0 L953.0 662.0" fill="none" data-name="output/gender_summary_collection.png"></path>
+						</g>
+						<g transform="translate(632, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="output/gender_summary_collection.png" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="output/gender_summary_collection.png" data-compartment="0">
+								<text x="152.5" y="14.1" stroke="none" text-anchor="middle" data-name="output/gender_summary_collection.png" data-compartment="0">output/gender_summary_collection.png</text>
+								
+							</g>
+						</g>
+						<g transform="translate(632, 662)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="output/gender_summary_collection.png" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="output/gender_summary_collection.png" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="output/gender_summary_collection.png" data-compartment="1">Box Office by Director Gender Plot</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="output/year_summary_collection.png">
+						<g fill="#eee8d5" stroke="#33322E" data-name="output/year_summary_collection.png">
+							<rect x="993.0" y="630.0" height="64.0" width="301.0" data-name="output/year_summary_collection.png"></rect>
+							<path d="M993.0 662.0 L1294.0 662.0" fill="none" data-name="output/year_summary_collection.png"></path>
+						</g>
+						<g transform="translate(993, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="output/year_summary_collection.png" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="output/year_summary_collection.png" data-compartment="0">
+								<text x="142.5" y="14.1" stroke="none" text-anchor="middle" data-name="output/year_summary_collection.png" data-compartment="0">output/year_summary_collection.png</text>
+								
+							</g>
+						</g>
+						<g transform="translate(993, 662)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="output/year_summary_collection.png" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="output/year_summary_collection.png" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="output/year_summary_collection.png" data-compartment="1">Box Office by Year Plot</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/clean/bolly_revised.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/clean/bolly_revised.csv">
+							<rect x="1334.0" y="630.0" height="64.0" width="232.0" data-name="data/clean/bolly_revised.csv"></rect>
+							<path d="M1334.0 662.0 L1566.0 662.0" fill="none" data-name="data/clean/bolly_revised.csv"></path>
+						</g>
+						<g transform="translate(1334, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/clean/bolly_revised.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/clean/bolly_revised.csv" data-compartment="0">
+								<text x="108.0" y="14.1" stroke="none" text-anchor="middle" data-name="data/clean/bolly_revised.csv" data-compartment="0">data/clean/bolly_revised.csv</text>
+								
+							</g>
+						</g>
+						<g transform="translate(1334, 662)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="data/clean/bolly_revised.csv" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="data/clean/bolly_revised.csv" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="data/clean/bolly_revised.csv" data-compartment="1">Merged Movie Data</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/02_fetch_movie_assets.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/02_fetch_movie_assets.R">
+							<rect x="1603.8" y="246.0" height="64.0" width="284.0" data-name="scripts/02_fetch_movie_assets.R"></rect>
+							<path d="M1603.8 278.0 L1863.8 278.0 L1879.8 262.0 L1879.8 246.0" fill="none" data-name="scripts/02_fetch_movie_assets.R"></path>
+						</g>
+						<g transform="translate(1603.75, 246)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/02_fetch_movie_assets.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/02_fetch_movie_assets.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/02_fetch_movie_assets.R" data-compartment="0">scripts/02_fetch_movie_assets.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(1603.75, 278)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/02_fetch_movie_assets.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/02_fetch_movie_assets.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/02_fetch_movie_assets.R" data-compartment="1">Scrape Subtitles, Plots, Posters</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/00_subtitle_scraper.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/00_subtitle_scraper.R">
+							<rect x="888.5" y="350.0" height="64.0" width="254.0" data-name="scripts/00_subtitle_scraper.R"></rect>
+							<path d="M888.5 382.0 L1118.5 382.0 L1134.5 366.0 L1134.5 350.0" fill="none" data-name="scripts/00_subtitle_scraper.R"></path>
+						</g>
+						<g transform="translate(888.5, 350)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_subtitle_scraper.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_subtitle_scraper.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_subtitle_scraper.R" data-compartment="0">scripts/00_subtitle_scraper.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(888.5, 382)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_subtitle_scraper.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_subtitle_scraper.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_subtitle_scraper.R" data-compartment="1">Get Subtitles (Subdl.com)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/raw/subtitles/zips/">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/raw/subtitles/zips/">
+							<rect x="722.5" y="454.0" height="32.0" width="191.0" data-name="data/raw/subtitles/zips/"></rect>
+						</g>
+						<g transform="translate(722.5, 454)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/raw/subtitles/zips/" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/raw/subtitles/zips/" data-compartment="0">
+								<text x="87.5" y="14.1" stroke="none" text-anchor="middle" data-name="data/raw/subtitles/zips/" data-compartment="0">data/raw/subtitles/zips/</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/raw/subtitles/all_srts/">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/raw/subtitles/all_srts/">
+							<rect x="1291.5" y="454.0" height="32.0" width="216.0" data-name="data/raw/subtitles/all_srts/"></rect>
+						</g>
+						<g transform="translate(1291.5, 454)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/raw/subtitles/all_srts/" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/raw/subtitles/all_srts/" data-compartment="0">
+								<text x="100.0" y="14.1" stroke="none" text-anchor="middle" data-name="data/raw/subtitles/all_srts/" data-compartment="0">data/raw/subtitles/all_srts/</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/00_wiki_plot_scraper.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/00_wiki_plot_scraper.R">
+							<rect x="2075.0" y="350.0" height="64.0" width="266.0" data-name="scripts/00_wiki_plot_scraper.R"></rect>
+							<path d="M2075.0 382.0 L2317.0 382.0 L2333.0 366.0 L2333.0 350.0" fill="none" data-name="scripts/00_wiki_plot_scraper.R"></path>
+						</g>
+						<g transform="translate(2075, 350)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_wiki_plot_scraper.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_wiki_plot_scraper.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_wiki_plot_scraper.R" data-compartment="0">scripts/00_wiki_plot_scraper.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(2075, 382)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_wiki_plot_scraper.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_wiki_plot_scraper.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_wiki_plot_scraper.R" data-compartment="1">Get Plot (Wikipedia)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/raw/plot/bolly_descriptions_100.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/raw/plot/bolly_descriptions_100.csv">
+							<rect x="2044.5" y="454.0" height="32.0" width="327.0" data-name="data/raw/plot/bolly_descriptions_100.csv"></rect>
+						</g>
+						<g transform="translate(2044.5, 454)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/raw/plot/bolly_descriptions_100.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/raw/plot/bolly_descriptions_100.csv" data-compartment="0">
+								<text x="155.5" y="14.1" stroke="none" text-anchor="middle" data-name="data/raw/plot/bolly_descriptions_100.csv" data-compartment="0">data/raw/plot/bolly_descriptions_100.csv</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/00_poster_scraper.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/00_poster_scraper.R">
+							<rect x="1622.8" y="350.0" height="64.0" width="246.0" data-name="scripts/00_poster_scraper.R"></rect>
+							<path d="M1622.8 382.0 L1844.8 382.0 L1860.8 366.0 L1860.8 350.0" fill="none" data-name="scripts/00_poster_scraper.R"></path>
+						</g>
+						<g transform="translate(1622.75, 350)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_poster_scraper.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_poster_scraper.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_poster_scraper.R" data-compartment="0">scripts/00_poster_scraper.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(1622.75, 382)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/00_poster_scraper.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/00_poster_scraper.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/00_poster_scraper.R" data-compartment="1">Get Posters (TMDB)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/raw/posters/">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/raw/posters/">
+							<rect x="1547.5" y="454.0" height="32.0" width="148.0" data-name="data/raw/posters/"></rect>
+						</g>
+						<g transform="translate(1547.5, 454)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/raw/posters/" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/raw/posters/" data-compartment="0">
+								<text x="66.0" y="14.1" stroke="none" text-anchor="middle" data-name="data/raw/posters/" data-compartment="0">data/raw/posters/</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/clean/bolly_posters_100.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/clean/bolly_posters_100.csv">
+							<rect x="1735.5" y="454.0" height="32.0" width="269.0" data-name="data/clean/bolly_posters_100.csv"></rect>
+						</g>
+						<g transform="translate(1735.5, 454)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/clean/bolly_posters_100.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/clean/bolly_posters_100.csv" data-compartment="0">
+								<text x="126.5" y="14.1" stroke="none" text-anchor="middle" data-name="data/clean/bolly_posters_100.csv" data-compartment="0">data/clean/bolly_posters_100.csv</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="scripts/04_thematic_analysis.R">
+						<g fill="#eee8d5" stroke="#33322E" data-name="scripts/04_thematic_analysis.R">
+							<rect x="1732.3" y="526.0" height="64.0" width="269.0" data-name="scripts/04_thematic_analysis.R"></rect>
+							<path d="M1732.3 558.0 L1977.3 558.0 L1993.3 542.0 L1993.3 526.0" fill="none" data-name="scripts/04_thematic_analysis.R"></path>
+						</g>
+						<g transform="translate(1732.25, 526)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/04_thematic_analysis.R" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/04_thematic_analysis.R" data-compartment="0">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/04_thematic_analysis.R" data-compartment="0">scripts/04_thematic_analysis.R</text>
+								
+							</g>
+						</g>
+						<g transform="translate(1732.25, 558)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="scripts/04_thematic_analysis.R" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="scripts/04_thematic_analysis.R" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="scripts/04_thematic_analysis.R" data-compartment="1">Thematic Analysis (LLM)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="data/build/bolly_themes.csv">
+						<g fill="#eee8d5" stroke="#33322E" data-name="data/build/bolly_themes.csv">
+							<rect x="1752.3" y="630.0" height="64.0" width="229.0" data-name="data/build/bolly_themes.csv"></rect>
+							<path d="M1752.3 662.0 L1981.3 662.0" fill="none" data-name="data/build/bolly_themes.csv"></path>
+						</g>
+						<g transform="translate(1752.25, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="data/build/bolly_themes.csv" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="data/build/bolly_themes.csv" data-compartment="0">
+								<text x="106.5" y="14.1" stroke="none" text-anchor="middle" data-name="data/build/bolly_themes.csv" data-compartment="0">data/build/bolly_themes.csv</text>
+								
+							</g>
+						</g>
+						<g transform="translate(1752.25, 662)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="data/build/bolly_themes.csv" data-compartment="1">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="data/build/bolly_themes.csv" data-compartment="1">
+								<text x="0.0" y="14.1" stroke="none" data-name="data/build/bolly_themes.csv" data-compartment="1">Thematic Coded Data</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Theme Presence (Hindu-Muslim, Gender, Nationalism)">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Theme Presence (Hindu-Muslim, Gender, Nationalism)">
+							<rect x="1308.5" y="734.0" height="32.0" width="428.0" data-name="Theme Presence (Hindu-Muslim, Gender, Nationalism)"></rect>
+						</g>
+						<g transform="translate(1308.5, 734)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Theme Presence (Hindu-Muslim, Gender, Nationalism)" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Theme Presence (Hindu-Muslim, Gender, Nationalism)" data-compartment="0">
+								<text x="206.0" y="14.1" stroke="none" text-anchor="middle" data-name="Theme Presence (Hindu-Muslim, Gender, Nationalism)" data-compartment="0">Theme Presence (Hindu-Muslim, Gender, Nationalism)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Google Gemini API">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Google Gemini API">
+							<rect x="1442.0" y="806.0" height="32.0" width="161.0" data-name="Google Gemini API"></rect>
+						</g>
+						<g transform="translate(1442, 806)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Google Gemini API" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Google Gemini API" data-compartment="0">
+								<text x="72.5" y="14.1" stroke="none" text-anchor="middle" data-name="Google Gemini API" data-compartment="0">Google Gemini API</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md)">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md)">
+							<rect x="1776.5" y="734.0" height="32.0" width="617.0" data-name="Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md)"></rect>
+						</g>
+						<g transform="translate(1776.5, 734)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md)" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md)" data-compartment="0">
+								<text x="300.5" y="14.1" stroke="none" text-anchor="middle" data-name="Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md)" data-compartment="0">Sentiment Classification (Strategy outlined in sentiment_analysis_strategy.md)</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="OpenAI / Hugging Face Models">
+						<g fill="#eee8d5" stroke="#33322E" data-name="OpenAI / Hugging Face Models">
+							<rect x="1959.0" y="806.0" height="32.0" width="252.0" data-name="OpenAI / Hugging Face Models"></rect>
+						</g>
+						<g transform="translate(1959, 806)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="OpenAI / Hugging Face Models" data-compartment="0">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="OpenAI / Hugging Face Models" data-compartment="0">
+								<text x="118.0" y="14.1" stroke="none" text-anchor="middle" data-name="OpenAI / Hugging Face Models" data-compartment="0">OpenAI / Hugging Face Models</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="End">
+						<g fill="#33322E" stroke="#33322E" data-name="End">
+							<circle r="10.0" cx="785.0" cy="15.0" data-name="End"></circle>
+							<circle r="6.0" cx="785.0" cy="15.0" stroke="none" data-name="End"></circle>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

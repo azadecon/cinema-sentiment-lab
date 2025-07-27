@@ -37,7 +37,7 @@
 [<frame> scripts/00_poster_scraper.R ] -> [ data/raw/posters/ ]
 [<frame> scripts/00_poster_scraper.R ] -> [ data/clean/bolly_posters_100.csv ]
 
-'From the analysis of raw plots and subtitles, a new stage of analysis emerges:'
+''Movie attributes: a thematic analysis pipeline:'
 [ data/raw/plot/bolly_descriptions_100.csv ] -> [<frame> scripts/04_thematic_analysis.R | Thematic Analysis (LLM) ]
 [ data/raw/subtitles/all_srts/ ] -> [<frame> scripts/04_thematic_analysis.R ]
 
