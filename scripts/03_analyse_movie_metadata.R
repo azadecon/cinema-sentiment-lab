@@ -132,10 +132,17 @@ ggsave("./output/gender_summary_collection.png", p2)
 #######################
 
 # Clean box office and drop NAs
-bolly_year <- read_csv("./data/clean/bolly_sample_100.csv")
-bolly_year <- bolly_year %>% select(imdb_id, year_of_release)
+bolly_sample <- read_csv("./data/clean/bolly_sample_100.csv")
+bolly_sample <- bolly_sample %>% select(original_title, imdb_id, year_of_release)
 
-bolly_dir_collec <- bolly_dir_collec %>% left_join(bolly_year, by = "imdb_id")
+bolly_dir_collec <- read_csv("./data/clean/bolly_dir_collec.csv")
+bolly_revised <- bolly_dir_collec %>% left_join(bolly_sample, by = "imdb_id")
+
+# save the revised movies dataset.
+dir.create("data/clean", recursive = TRUE, showWarnings = FALSE)
+write_csv(bolly_revised, "./data/clean/bolly_revised.csv")
+
+
 
 movies_cleaned <- bolly_dir_collec %>%
   filter(!is.na(collection_dollar))
@@ -174,3 +181,8 @@ p3 <- ggplot(movies_cleaned, aes(x = factor(year_of_release), y = collection_dol
 
 dir.create("./output/", recursive = TRUE, showWarnings = FALSE)
 ggsave("./output/year_summary_collection.png", p3, width = 10, height = 6)
+
+
+
+
+
