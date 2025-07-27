@@ -78,7 +78,7 @@ This pipeline depends on follwing api/credentials. Please enusre their availabil
 It contains all the graphs.
 
 ---
-For further details consult the respect scripts. 
+For further details consult the respective scripts. 
 
 
 
