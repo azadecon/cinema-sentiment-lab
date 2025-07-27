@@ -43,21 +43,32 @@ Sure! Here's a detailed README based entirely on the R script you provided:
 
 ---
 
-# Bollywood Movies Sampling
+# Objective
 
-## Section Overview
+This project aims to build a reproducible data pipeline and perform a preliminary analysis of cultural and political themes in contemporary Bollywood cinema. Using a sample of 100 post-2010 Indian films, we collect subtitles, plot, and posters to explore themes such as Hindu–Muslim relations, gender dynamics, and nationalism. This pipeline supports the analysis such as metadata enrichment, thematic sentiment classification using LLMs, and visualizations of trends over time.
 
-This section downloads a comprehensive Bollywood movies dataset from Kaggle, filters the data to include only movies released after 2010, merges metadata, ratings, and text data, and creates a random sample of 100 movies for further analysis. The sample is saved for downstream tasks, along with a log of the sampling event.
-
----
-
-## Data Sources Used
+# Data Sources Used
 
 * **The Indian Movie Database** dataset from Kaggle
   Dataset URL: [https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database](https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database)
   This dataset contains multiple CSV files including movie metadata, ratings, and text data for Bollywood movies, covering the years 2010-2019.
+* [IMDB](https://www.imdb.com/)
+* [Box Office Mojo](https://www.boxofficemojo.com/)
+* [Subdl](https://subdl.com/)
+* [TMDB](https://www.themoviedb.org/)
+* Google Gemini API (used for gender inference and thematic analysis)
 
----
+# Dependency
+This pipeline depends on follwing api/credentials. Please enusre their availability.
+- `gemini_api_key`
+- `tmdb_api_key`
+- `subdl_api_key`
+- `kaggle.json`
+
+# scripts
+- Scripts starting with `00` are helper scripts and they must be made available wherever they are required.
+- Rest scripts follow this order: `01_data_sampling_and_setup.R ==> 02_fetch_movie_assets.R ==> 03_fetch_movie_metadata.R ==> 03_analyse_movie_metadata.R ==> 04_build_movie_themes.R ==> 04_thematic_analysis.R`
+
 
 ## Description of Main Script and Its Purpose
 
@@ -267,8 +278,6 @@ In this section we collect and analyzes descriptive metadata for a sample of Bol
 
 ## References
 
-* [IMDB](https://www.imdb.com/)
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* Google Gemini API (used for gender inference)
+
 
 ---
