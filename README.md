@@ -18,6 +18,8 @@ A sentiment analysis of Bollywood films to explore political and cultural themes
 │   │   ├── plot/                    # Raw movie descriptions/plots
 │   │   ├── posters/                 # Raw movie poster images
 │   │   └── subtitles/               # Raw subtitle files (zips and extracted .srt)
+│   ├── build/
+│   │   ├── bolly_themes.csv         # build for thematic analysis
 ├── scripts/
 │   ├── 00_collection_scraper.R      # Scrapes box office data from Box Office Mojo
 │   ├── 00_director_scraper.R        # Scrapes director names from Box Office Mojo
