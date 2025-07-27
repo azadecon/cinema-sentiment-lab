@@ -39,8 +39,6 @@ A sentiment analysis of Bollywood films to explore political and cultural themes
 # Dependency and outputs
 <img width="1982" height="750" alt="build" src="https://github.com/azadecon/cinema-sentiment-lab/blob/main/build.svg" />
 
-Sure! Here's a detailed README based entirely on the R script you provided:
-
 ---
 
 # Objective
@@ -78,8 +76,23 @@ This pipeline depends on follwing api/credentials. Please enusre their availabil
 It contains all the graphs.
 
 ---
-For further details consult the respective scripts. 
+# additional thematic measure
+I would like to look for `urban struggles` in the movie. Cities are taken to be centers of opportunity yet they are also spaces of struggles. These struggles are unique in the sense as they are place based. For example, `gully boy` showcases slum life, `life in a metro` shows urban loneliness, `Wake Up Sid` and `Rocket Singh` explores the idea of identity in urban setting. Furthermore, `Lipstick Under My Burkha` shows secret lives and relationships of women as well `modern love mumbai` too focuses on relationship and love. 
 
+Subjects of these movies are not unique in themselves yet they are set in urban context and give a different meaning to it. Challenges of urban lives are bound to exploration of solutions which are unique to it. Such a study with urban centric lense will yield fruitful solution to alienating and dehumanising challenges.
 
+A thematic strand I would like to explore is that of **urban struggles**. While cities are often portrayed as centers of opportunity and aspiration, they also serve as spaces of profound challenges and contradictions. These struggles are uniquely tied to the urban context—shaped by its density, pace, anonymity, and inequality. For instance, `Gully Boy` portrays life in the slums and the aspirations that emerge from them; `Life in a... Metro` explores urban loneliness and emotional disconnection; `Wake Up Sid` and `Rocket Singh: Salesman of the Year` delve into questions of identity and self-discovery in a metropolitan environment. Similarly, `Lipstick Under My Burkha` and `Modern Love: Mumbai` depict the hidden, often suppressed, lives and relationships of women navigating the urban landscape.
+
+While the subjects these films tackle—love, identity, ambition, alienation—are not unique to cities, their placement within an urban setting gives them new resonance and complexity. The challenges of city life demand solutions that are as particular and place-based as the problems themselves. A study focused through an urban lens can thus illuminate the ways in which cities shape, intensify, or even enable personal and social struggles—and perhaps suggest responses that address the alienating and dehumanizing aspects of modern urban existence.
+
+# Looking Ahead
+See `supplementary_ideas.md` for potential extensions, such as:
+- trailer-based visual sentiment analysis
+- User Reviews and Sentiment
+- Social Media Mentions and
+- Awards and Nominations
+
+# Note on thematic analysis
+Due to running out of LLM credits, I was unable to complete full-scale automated sentiment analysis. However, I have outlined my startegy for the same in the [`/scripts/sentiment_analysis.md`](https://github.com/azadecon/cinema-sentiment-lab/blob/main/scripts/sentiment_analysis.md) document.
 
 ---
