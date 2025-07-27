@@ -77,9 +77,6 @@ It contains all the graphs.
 
 ---
 # additional thematic measure
-I would like to look for `urban struggles` in the movie. Cities are taken to be centers of opportunity yet they are also spaces of struggles. These struggles are unique in the sense as they are place based. For example, `gully boy` showcases slum life, `life in a metro` shows urban loneliness, `Wake Up Sid` and `Rocket Singh` explores the idea of identity in urban setting. Furthermore, `Lipstick Under My Burkha` shows secret lives and relationships of women as well `modern love mumbai` too focuses on relationship and love. 
-
-Subjects of these movies are not unique in themselves yet they are set in urban context and give a different meaning to it. Challenges of urban lives are bound to exploration of solutions which are unique to it. Such a study with urban centric lense will yield fruitful solution to alienating and dehumanising challenges.
 
 A thematic strand I would like to explore is that of **urban struggles**. While cities are often portrayed as centers of opportunity and aspiration, they also serve as spaces of profound challenges and contradictions. These struggles are uniquely tied to the urban context—shaped by its density, pace, anonymity, and inequality. For instance, `Gully Boy` portrays life in the slums and the aspirations that emerge from them; `Life in a... Metro` explores urban loneliness and emotional disconnection; `Wake Up Sid` and `Rocket Singh: Salesman of the Year` delve into questions of identity and self-discovery in a metropolitan environment. Similarly, `Lipstick Under My Burkha` and `Modern Love: Mumbai` depict the hidden, often suppressed, lives and relationships of women navigating the urban landscape.
 
