@@ -57,7 +57,7 @@ We only document the tools/data sources used here. Methods of obtaining the acce
 * Google Gemini API (used for gender inference and thematic analysis)
 
 # Dependency
-This pipeline depends on follwing api/credentials. Please enusre their availability.
+This pipeline depends on follwing api/credentials. Please ensure their availability.
 - `gemini_api_key`
 - `tmdb_api_key`
 - `subdl_api_key`
