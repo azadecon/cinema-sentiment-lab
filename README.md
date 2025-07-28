@@ -38,7 +38,7 @@ A sentiment analysis of Bollywood films to explore political and cultural themes
 └── supplementary_ideas.md      # Document proposing additional attributes
 ```
 
-# Dependency and outputs
+# Script Flow
 <img width="1982" height="750" alt="build" src="https://github.com/azadecon/cinema-sentiment-lab/blob/main/build.svg" />
 
 ---
