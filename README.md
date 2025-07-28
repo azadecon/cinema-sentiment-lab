@@ -51,12 +51,12 @@ This project aims to build a reproducible data pipeline and perform a preliminar
 We only document the tools/data sources used here. Methods of obtaining the access is beyond the scope of this project.
 * **The Indian Movie Database** dataset from Kaggle
   Dataset URL: [https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database](https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database)
-  This dataset contains multiple CSV files including movie metadata, ratings, and text data for Bollywood movies, covering the years 2010-2019.
-* [IMDB](https://www.imdb.com/)
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [Subdl](https://subdl.com/)
-* [TMDB](https://www.themoviedb.org/)
-* Google Gemini API (used for gender inference and thematic analysis)
+  This dataset contains multiple CSV files with a variety of movie attributes but focus only on `imdb_id`, `movie_name` `year_of_release` and `wiki_link` only. We obtain rest of the data ourselves from following sources.
+* [IMDB](https://www.imdb.com/): Used for unique movie identification (imdb_id)
+* [Box Office Mojo](https://www.boxofficemojo.com/): Box office revenue and director data
+* [Subdl](https://subdl.com/): Subtitle ZIP file acquisition
+* [TMDB](https://www.themoviedb.org/): Poster images via tmdb_id lookup
+* Google Gemini API (used for gender inference and thematic analysis): Used for gender inference and theme/sentiment classification
 
 # Dependency
 This pipeline depends on follwing api/credentials. Please ensure their availability.
@@ -70,12 +70,13 @@ This pipeline depends on follwing api/credentials. Please ensure their availabil
 - Rest scripts follow this order: `01_data_sampling_and_setup.R ==> 02_fetch_movie_assets.R ==> 03_fetch_movie_metadata.R ==> 03_analyse_movie_metadata.R ==> 04_build_movie_themes.R ==> 04_thematic_analysis.R`
 
 # Data
-- `/data/raw` comprises of all the downloaded data, including but not limited to `.srt`.
-- `/data/clean` has them cleaned, combined and uniquely identified with `imdb_id` and ready for further merging or analysis.
-- `/data/build` has the data ready for thematic analysis.
+- `/data/raw` All directly scraped or downloaded assets, including subtitles (.srt), plots, posters, and metadata.
+- `/data/clean` Structured datasets uniquely indexed by `imdb_id`, suitable for merging and analysis.
+- `/data/build` Aggregated inputs for thematic and sentiment analysis.
+
 
 # Output
-It contains all the graphs.
+All final plots are stored in the /output directory and referenced in the main report.
 
 ---
 # additional thematic measure
